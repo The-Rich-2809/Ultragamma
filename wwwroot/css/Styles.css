@@ -1,0 +1,82 @@
+﻿/*Longin and SignUp*/
+@font-face {
+    font-family: NewsLetter;
+    src: url(../Fonts/sspu.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: article;
+    src: url(../Fonts/RH.ttf) format('truetype');
+    font-weight: normal;
+    font-style: bold;
+}
+
+#pantalla-d {
+    display: flex;
+}
+
+.form-signin {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+}
+
+.form-control-dark {
+    color: #fff;
+    background-color: var(--bs-dark);
+    border-color: var(--bs-gray);
+}
+
+.titulo {
+    font-family: "NewsLetter";
+    font-size: 65px;
+}
+
+.txt {
+    font-family: "article";
+}
+
+.btn1 {
+    color: #212529;
+    font-family: article;
+}
+/*Login*/
+.derechaL {
+    background: url(../Images/login.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    height: 100vh;
+}
+
+.izquierdaL {
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+/*SignUp*/
+.derechaS {
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.izquierdaS {
+    background: url(../images/Sign-up.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    height: 100vh;
+}
