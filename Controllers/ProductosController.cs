@@ -13,18 +13,11 @@ public class ProductosController : Controller
         _logger = logger;
     }
 
-    public IActionResult Index()
+    public IActionResult Hombres()
     {
         return View();
     }
-    public IActionResult IniciarSesion()
-    {
-        return View();
-    }
-    public IActionResult Registrate()
-    {
-        return View();
-    }
+  
 
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     public IActionResult Error()
