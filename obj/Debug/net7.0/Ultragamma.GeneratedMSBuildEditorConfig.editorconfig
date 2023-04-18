@@ -28,8 +28,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxSZWdpc3RyYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/jnava/Documents/GitHub/Ultragamma/Views/Productos/Accesorios.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9zXEFjY2Vzb3Jpb3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/jnava/Documents/GitHub/Ultragamma/Views/Productos/Hombres.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9zXEhvbWJyZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jnava/Documents/GitHub/Ultragamma/Views/Productos/Mujeres.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9zXE11amVyZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/jnava/Documents/GitHub/Ultragamma/Views/Shared/Error.cshtml]

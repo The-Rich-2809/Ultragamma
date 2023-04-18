@@ -17,7 +17,17 @@ public class ProductosController : Controller
     {
         return View();
     }
-  
+    public IActionResult Mujeres()
+    {
+        return View();
+    }
+    public IActionResult Accesorios()
+    {
+        return View();
+    }
+
+
+
 
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     public IActionResult Error()
