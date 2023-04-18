@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "/1Mqcp2FcmgqayIOqVqt7XMsdFmJ6Ah7+xhE2U3P9Jw=",
+  "Hash": "B3a78SyXukX9Py7P7mCsLsUThI0bcflSqE8NfI0Yd8s=",
   "Source": "Ultragamma",
   "BasePath": "_content/Ultragamma",
   "Mode": "Default",
@@ -338,6 +338,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\Carousel3.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\jnava\\Documents\\GitHub\\Ultragamma\\wwwroot\\Images\\Hombre1.jpg",
+      "SourceId": "Ultragamma",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\jnava\\Documents\\GitHub\\Ultragamma\\wwwroot\\",
+      "BasePath": "_content/Ultragamma",
+      "RelativePath": "Images/Hombre1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\Hombre1.jpg"
     },
     {
       "Identity": "C:\\Users\\jnava\\Documents\\GitHub\\Ultragamma\\wwwroot\\Images\\login.jpg",
