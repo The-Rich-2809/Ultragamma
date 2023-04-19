@@ -139,3 +139,37 @@
   }
 }
 
+.Contenedor .Checkbox ul {
+    list-style: none;
+    display: flex;
+}
+
+    .Contenedor .Checkbox ul li {
+        display: inline-block;
+        margin: 0 10px;
+    }
+
+        .Contenedor .Checkbox ul li label {
+            display: inline-block;
+            background: white;
+            border: 1px solid black;
+            color: black;
+            border-radius: 25px;
+            transition: .2 all ease;
+            padding: 8px 12px;
+        }
+
+            .Contenedor .Checkbox ul li label:hover {
+                border: 2px solid black;
+            }
+
+        .Contenedor .Checkbox ul li input[type="checkbox"]:checked + label {
+            background: black;
+            color: white;
+        }
+
+        .Contenedor .Checkbox ul li input[type="checkbox"] {
+            opacity: 0;
+        }
+
+

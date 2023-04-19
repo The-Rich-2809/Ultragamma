@@ -1,37 +1,24 @@
-using System.Diagnostics;
-using Microsoft.AspNetCore.Mvc;
-using Ultragamma.Models;
+﻿using Microsoft.AspNetCore.Mvc;
 
-namespace Ultragamma.Controllers;
-
-public class ProductosController : Controller
+namespace Ultragamma.Controllers
 {
-    private readonly ILogger<HomeController> _logger;
-
-    public ProductosController(ILogger<HomeController> logger)
+    public class ProductosController : Controller
     {
-        _logger = logger;
-    }
-
-    public IActionResult Hombres()
-    {
-        return View();
-    }
-    public IActionResult Mujeres()
-    {
-        return View();
-    }
-    public IActionResult Accesorios()
-    {
-        return View();
-    }
-
-
-
-
-    [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-    public IActionResult Error()
-    {
-        return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+        public IActionResult Hombres()
+        {
+            return View();
+        }
+        public IActionResult Mujeres()
+        {
+            return View();
+        }
+        public IActionResult Accesorios()
+        {
+            return View();
+        }
+        public IActionResult Productos()
+        {
+            return View();
+        }
     }
 }

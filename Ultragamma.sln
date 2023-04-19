@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33530.505
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ultragamma", "Ultragamma.csproj", "{9ECC344E-3E4C-4B31-AA55-A658D79FE076}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ultragamma", "Ultragamma.csproj", "{EAE6EE53-970A-4CB9-97F4-0430C0D51196}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{9ECC344E-3E4C-4B31-AA55-A658D79FE076}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9ECC344E-3E4C-4B31-AA55-A658D79FE076}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9ECC344E-3E4C-4B31-AA55-A658D79FE076}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9ECC344E-3E4C-4B31-AA55-A658D79FE076}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAE6EE53-970A-4CB9-97F4-0430C0D51196}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAE6EE53-970A-4CB9-97F4-0430C0D51196}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAE6EE53-970A-4CB9-97F4-0430C0D51196}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAE6EE53-970A-4CB9-97F4-0430C0D51196}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {10B4863C-F3DF-4E15-9089-00DDF6CB84AF}
+		SolutionGuid = {E1D1850F-8F40-4F1E-84E0-A990C7C29B1A}
 	EndGlobalSection
 EndGlobal
