@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Huawei\\Documents\\Programación\\Ultragamma\\Ultragamma.csproj",
+      "projectUniqueName": "C:\\Users\\Huawei\\Documents\\GitHub\\Ultragamma\\Ultragamma.csproj",
       "projectName": "Ultragamma",
-      "projectPath": "C:\\Users\\Huawei\\Documents\\Programación\\Ultragamma\\Ultragamma.csproj",
+      "projectPath": "C:\\Users\\Huawei\\Documents\\GitHub\\Ultragamma\\Ultragamma.csproj",
       "packagesPath": "C:\\Users\\Huawei\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Huawei\\Documents\\Programación\\Ultragamma\\obj\\",
+      "outputPath": "C:\\Users\\Huawei\\Documents\\GitHub\\Ultragamma\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -14,14 +14,18 @@
                 @{
                     for (int i = 0; i < 9; i++)
                     {
-                        <div class="col">
-                            <div class="card" style="width: 25rem;">
-                                <img class="card-img-top" src="~/Images/Hombre1.jpg" alt="Card image cap">
-                                <div class="card-body">
-                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <form method="post">
+                            <button asp-controller="Home" asp-action="Index" style="padding: 0; border: none;background: none;">
+                                <div class="col">
+                                    <div class="card" style="width: 25rem;">
+                                        <img class="card-img-top" src="~/Images/Hombre1.jpg" alt="Card image cap">
+                                        <div class="card-body">
+                                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        </div>
+                                    </div>
                                 </div>
-                            </div>
-                        </div>
+                            </button>
+                        </form>
                     }
                 }
             </div>
