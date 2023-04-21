@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "oNhGY3na1NmLLKfY0CYLOvEFXReBzs7oyG1F8qJkfdU=",
+  "Hash": "giX/BAktaPZt1OSnqggFmVbbgAGDx7TAQw6vp00rOpk=",
   "Source": "Ultragamma",
   "BasePath": "_content/Ultragamma",
   "Mode": "Default",
@@ -66,6 +66,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\Check.css"
+    },
+    {
+      "Identity": "C:\\Users\\CECyT 13\\Documents\\GitHub\\Ultragamma\\wwwroot\\css\\headers.css",
+      "SourceId": "Ultragamma",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\CECyT 13\\Documents\\GitHub\\Ultragamma\\wwwroot\\",
+      "BasePath": "_content/Ultragamma",
+      "RelativePath": "css/headers.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\headers.css"
     },
     {
       "Identity": "C:\\Users\\CECyT 13\\Documents\\GitHub\\Ultragamma\\wwwroot\\css\\site.css",
@@ -406,6 +423,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\Sign-up.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\CECyT 13\\Documents\\GitHub\\Ultragamma\\wwwroot\\js\\bootstrap.bundle.min.js",
+      "SourceId": "Ultragamma",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\CECyT 13\\Documents\\GitHub\\Ultragamma\\wwwroot\\",
+      "BasePath": "_content/Ultragamma",
+      "RelativePath": "js/bootstrap.bundle.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\bootstrap.bundle.min.js"
     },
     {
       "Identity": "C:\\Users\\CECyT 13\\Documents\\GitHub\\Ultragamma\\wwwroot\\js\\site.js",
