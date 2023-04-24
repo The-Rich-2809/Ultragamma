@@ -12,20 +12,21 @@
     <div id="pantalla-d">
         <div class="izquierdaL text-center">
             <main class="form-signin">
-                <form>
+                <form asp-controller="Home" asp-action="IniciarSesion" method="post">
                     <h1 class="h3 mb-3 fw-normal titulo">Iniciar Sesion</h1>
 
                     <div class="form-floating shadow" style="margin-bottom: 10px; margin-top: 15px;">
-                        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                        <input name="Correo" type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
                         <label for="floatingInput" class="txt">Email</label>
                     </div>
                     <div class="form-floating shadow" style="--bs-body-bg:#0dcaf0">
-                        <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                        <input name="Contrasena" type="password" class="form-control" id="floatingPassword" placeholder="Password">
                         <label for="floatingPassword" class="txt">Contraseña</label>
                     </div>
 
                     <button type="submit" class="btn btn-primary bg-info btn1 w-100 btn btn-lg" style="margin-top: 15px;">Acceder</button>
                 </form>
+                <h1>@ViewBag.Mensaje</h1>
             </main>
         </div>
         <div class="derechaL"></div>

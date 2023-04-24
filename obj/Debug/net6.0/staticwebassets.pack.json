@@ -69,12 +69,20 @@
       "PackagePath": "staticwebassets\\Images\\Sign-up.jpg"
     },
     {
+      "Id": "C:\\Users\\Huawei\\Documents\\GitHub\\Ultragamma\\wwwroot\\Images\\accesorios.jpg",
+      "PackagePath": "staticwebassets\\Images\\accesorios.jpg"
+    },
+    {
       "Id": "C:\\Users\\Huawei\\Documents\\GitHub\\Ultragamma\\wwwroot\\Images\\login.jpg",
       "PackagePath": "staticwebassets\\Images\\login.jpg"
     },
     {
-      "Id": "C:\\Users\\Huawei\\Documents\\GitHub\\Ultragamma\\wwwroot\\css\\Check.css",
-      "PackagePath": "staticwebassets\\css\\Check.css"
+      "Id": "C:\\Users\\Huawei\\Documents\\GitHub\\Ultragamma\\wwwroot\\Images\\mujer.jpg",
+      "PackagePath": "staticwebassets\\Images\\mujer.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Huawei\\Documents\\GitHub\\Ultragamma\\wwwroot\\css\\Carousel.css",
+      "PackagePath": "staticwebassets\\css\\Carousel.css"
     },
     {
       "Id": "C:\\Users\\Huawei\\Documents\\GitHub\\Ultragamma\\wwwroot\\css\\Styles.css",
@@ -87,6 +95,14 @@
     {
       "Id": "C:\\Users\\Huawei\\Documents\\GitHub\\Ultragamma\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Huawei\\Documents\\GitHub\\Ultragamma\\wwwroot\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Huawei\\Documents\\GitHub\\Ultragamma\\wwwroot\\js\\form-validation.js",
+      "PackagePath": "staticwebassets\\js\\form-validation.js"
     },
     {
       "Id": "C:\\Users\\Huawei\\Documents\\GitHub\\Ultragamma\\wwwroot\\js\\site.js",
