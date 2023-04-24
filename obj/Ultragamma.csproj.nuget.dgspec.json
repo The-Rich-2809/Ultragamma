@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Huawei\\Desktop\\Ultragamma\\Ultragamma.csproj": {}
+    "C:\\Users\\Huawei\\Documents\\Programación\\Ultragamma\\Ultragamma.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Huawei\\Desktop\\Ultragamma\\Ultragamma.csproj": {
+    "C:\\Users\\Huawei\\Documents\\Programación\\Ultragamma\\Ultragamma.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Huawei\\Desktop\\Ultragamma\\Ultragamma.csproj",
+        "projectUniqueName": "C:\\Users\\Huawei\\Documents\\Programación\\Ultragamma\\Ultragamma.csproj",
         "projectName": "Ultragamma",
-        "projectPath": "C:\\Users\\Huawei\\Desktop\\Ultragamma\\Ultragamma.csproj",
+        "projectPath": "C:\\Users\\Huawei\\Documents\\Programación\\Ultragamma\\Ultragamma.csproj",
         "packagesPath": "C:\\Users\\Huawei\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Huawei\\Desktop\\Ultragamma\\obj\\",
+        "outputPath": "C:\\Users\\Huawei\\Documents\\Programación\\Ultragamma\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -47,20 +47,6 @@
             "Microsoft.Data.SqlClient": {
               "target": "Package",
               "version": "[5.1.1, )"
-            },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[6.0.15, )"
-            },
-            "Microsoft.EntityFrameworkCore.Tools": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[6.0.15, )"
-            },
-            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
-              "target": "Package",
-              "version": "[6.0.13, )"
             },
             "System.Data.SqlClient": {
               "target": "Package",
