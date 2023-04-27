@@ -20,7 +20,7 @@ Categoria NVARCHAR (30) NOT NULL,
 Cantidad INT NOT NULL) 
 Go
 
-delete from Usuarios
+delete from Productos
 Go
 Select * From Usuarios
 Go
