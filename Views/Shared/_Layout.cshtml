@@ -14,22 +14,17 @@
 <body>
 
     <header class="site-header sticky-top py-1 bg-dark">
-        <nav class="navbar navbar-expand-lg navbar-dark text-light bg-dark">
-           
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
+        <nav class="container d-flex flex-column flex-md-row justify-content-between">
+            <div class="container">
                 <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-                   
-                    <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">         
+                    <i class="fa-thin fa-cloud-music"></i>
+                    <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
                         <li><a class="nav-link px-2 text-white" asp-area="" asp-controller="Home" asp-action="Index">Inicio</a></li>
                         <li><a class="nav-link px-2 text-white" asp-area="" asp-controller="Productos" asp-action="Hombres">Hombres</a></li>
                         <li><a class="nav-link px-2 text-white" asp-area="" asp-controller="Productos" asp-action="Mujeres">Mujeres</a></li>
                         <li><a class="nav-link px-2 text-white" asp-area="" asp-controller="Productos" asp-action="Accesorios">Accesorios</a></li>
                     </ul>
-                 </div>
+
 
                     <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
                         <input type="search" class="form-control form-control-dark" placeholder="Search..." aria-label="Search ">
@@ -45,7 +40,10 @@
                         <form asp-controller="Home" asp-action="Registrate" method="get">
                             <input type="submit" class="btn btn-primary" name="Registrate" value="Registrate" />
                         </form>
-                    </div>
+              
+                    </div>      
+                </div>
+            </div>
         </nav>
     </header>
     <div class="">
