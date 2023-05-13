@@ -223,3 +223,4 @@ C:\Users\jnava\Documents\GitHub\Ultragamma\obj\Debug\net6.0\refint\Ultragamma.dl
 C:\Users\jnava\Documents\GitHub\Ultragamma\obj\Debug\net6.0\Ultragamma.pdb
 C:\Users\jnava\Documents\GitHub\Ultragamma\obj\Debug\net6.0\Ultragamma.genruntimeconfig.cache
 C:\Users\jnava\Documents\GitHub\Ultragamma\obj\Debug\net6.0\ref\Ultragamma.dll
+C:\Users\Huawei\Documents\GitHub\Ultragamma\obj\Debug\net6.0\scopedcss\Views\Shared\_LayoutAdmin2.cshtml.rz.scp.css

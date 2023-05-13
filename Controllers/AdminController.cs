@@ -5,10 +5,30 @@ namespace Ultragamma.Controllers
 {
     public class AdminController : Controller
     {
+        public IActionResult Inicio()
+        {
+            ViewBag.Header = RegistrosModel.Header();
+            return View();
+        }
         public IActionResult Almacen()
         {
             ViewBag.Header = RegistrosModel.Header();
             ViewBag.ProductosHombres = AlmacenModel.ProductosHombres();
+            return View();
+        }
+        public IActionResult Usuarios()
+        {
+            ViewBag.Header = RegistrosModel.Header();
+            return View();
+        }
+        public IActionResult Compras()
+        {
+            ViewBag.Header = RegistrosModel.Header();
+            return View();
+        }
+        public IActionResult VentasTerminadas()
+        {
+            ViewBag.Header = RegistrosModel.Header();
             return View();
         }
         [HttpGet]
