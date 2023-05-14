@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Huawei\\Documents\\GitHub\\Ultragamma\\Ultragamma.csproj": {}
+    "C:\\Users\\Alan Sánchez\\Documents\\GitHub\\Ultragamma\\Ultragamma.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Huawei\\Documents\\GitHub\\Ultragamma\\Ultragamma.csproj": {
+    "C:\\Users\\Alan Sánchez\\Documents\\GitHub\\Ultragamma\\Ultragamma.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Huawei\\Documents\\GitHub\\Ultragamma\\Ultragamma.csproj",
+        "projectUniqueName": "C:\\Users\\Alan Sánchez\\Documents\\GitHub\\Ultragamma\\Ultragamma.csproj",
         "projectName": "Ultragamma",
-        "projectPath": "C:\\Users\\Huawei\\Documents\\GitHub\\Ultragamma\\Ultragamma.csproj",
-        "packagesPath": "C:\\Users\\Huawei\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Huawei\\Documents\\GitHub\\Ultragamma\\obj\\",
+        "projectPath": "C:\\Users\\Alan Sánchez\\Documents\\GitHub\\Ultragamma\\Ultragamma.csproj",
+        "packagesPath": "C:\\Users\\Alan Sánchez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Alan Sánchez\\Documents\\GitHub\\Ultragamma\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Huawei\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Alan Sánchez\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
