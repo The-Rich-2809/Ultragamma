@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/Ultragamma.styles.css" asp-append-version="true" />
     <script src="https://kit.fontawesome.com/7f625253aa.js" crossorigin="anonymous" asp-append-version="true"></script>
+    <script src="https://kit.fontawesome.com/7f625253aa.js" crossorigin="anonymous"></script>
 
 </head>
 <body>
@@ -25,6 +26,11 @@
                     <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
                         <input type="search" class="form-control form-control-dark" placeholder="Search..." aria-label="Search">
                     </form>
+
+                    <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
+                        <a asp-area="" asp-controller="Productos" asp-action="Carrito"><i class="text-white fa-solid fa-cart-shopping"></i></a>
+                    </form>
+
                     <div class="dropdown text-end">
                         <a href="#" class="d-block link-light text-decoration-none dropdown-toggle" id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
                             <img src="https://github.com/mdo.png" alt="mdo" width="32" height="32" class="rounded-circle">

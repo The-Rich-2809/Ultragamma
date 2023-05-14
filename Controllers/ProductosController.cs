@@ -26,5 +26,10 @@ namespace Ultragamma.Controllers
             ViewBag.image = "login.jpg";
             return View();
         }
+        public IActionResult Carrito()
+        {
+            ViewBag.Header = RegistrosModel.Header();
+            return View();
+        }
     }
 }
