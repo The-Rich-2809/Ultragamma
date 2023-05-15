@@ -9,97 +9,97 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Ultragamma
 build_property.RootNamespace = Ultragamma
-build_property.ProjectDir = C:\Users\Alan Sánchez\Documents\GitHub\Ultragamma\
+build_property.ProjectDir = C:\Users\Alan Sánchez\Desktop\Ultragamma\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Alan Sánchez\Documents\GitHub\Ultragamma
+build_property.MSBuildProjectDirectory = C:\Users\Alan Sánchez\Desktop\Ultragamma
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Alan Sánchez/Documents/GitHub/Ultragamma/Views/Admin/Almacen.cshtml]
+[C:/Users/Alan Sánchez/Desktop/Ultragamma/Views/Admin/Almacen.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWxtYWNlbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Alan Sánchez/Documents/GitHub/Ultragamma/Views/Admin/Compras.cshtml]
+[C:/Users/Alan Sánchez/Desktop/Ultragamma/Views/Admin/Compras.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ29tcHJhcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Alan Sánchez/Documents/GitHub/Ultragamma/Views/Admin/Inicio.cshtml]
+[C:/Users/Alan Sánchez/Desktop/Ultragamma/Views/Admin/Inicio.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5pY2lvLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Alan Sánchez/Documents/GitHub/Ultragamma/Views/Admin/NuevoProducto.cshtml]
+[C:/Users/Alan Sánchez/Desktop/Ultragamma/Views/Admin/NuevoProducto.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cTnVldm9Qcm9kdWN0by5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Alan Sánchez/Documents/GitHub/Ultragamma/Views/Admin/Usuarios.cshtml]
+[C:/Users/Alan Sánchez/Desktop/Ultragamma/Views/Admin/Usuarios.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVXN1YXJpb3MuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Alan Sánchez/Documents/GitHub/Ultragamma/Views/Admin/VentasTerminadas.cshtml]
+[C:/Users/Alan Sánchez/Desktop/Ultragamma/Views/Admin/VentasTerminadas.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVmVudGFzVGVybWluYWRhcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Alan Sánchez/Documents/GitHub/Ultragamma/Views/Home/Index.cshtml]
+[C:/Users/Alan Sánchez/Desktop/Ultragamma/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Alan Sánchez/Documents/GitHub/Ultragamma/Views/Home/IniciarSesion.cshtml]
+[C:/Users/Alan Sánchez/Desktop/Ultragamma/Views/Home/IniciarSesion.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmljaWFyU2VzaW9uLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Alan Sánchez/Documents/GitHub/Ultragamma/Views/Home/Registrate.cshtml]
+[C:/Users/Alan Sánchez/Desktop/Ultragamma/Views/Home/Registrate.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxSZWdpc3RyYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Alan Sánchez/Documents/GitHub/Ultragamma/Views/Productos/Accesorios.cshtml]
+[C:/Users/Alan Sánchez/Desktop/Ultragamma/Views/Productos/Accesorios.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9zXEFjY2Vzb3Jpb3MuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Alan Sánchez/Documents/GitHub/Ultragamma/Views/Productos/Hombres.cshtml]
+[C:/Users/Alan Sánchez/Desktop/Ultragamma/Views/Productos/Hombres.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9zXEhvbWJyZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Alan Sánchez/Documents/GitHub/Ultragamma/Views/Productos/Mujeres.cshtml]
+[C:/Users/Alan Sánchez/Desktop/Ultragamma/Views/Productos/Mujeres.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9zXE11amVyZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Alan Sánchez/Documents/GitHub/Ultragamma/Views/Productos/Productos.cshtml]
+[C:/Users/Alan Sánchez/Desktop/Ultragamma/Views/Productos/Productos.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9zXFByb2R1Y3Rvcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Alan Sánchez/Documents/GitHub/Ultragamma/Views/Shared/Error.cshtml]
+[C:/Users/Alan Sánchez/Desktop/Ultragamma/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Alan Sánchez/Documents/GitHub/Ultragamma/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Alan Sánchez/Desktop/Ultragamma/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Alan Sánchez/Documents/GitHub/Ultragamma/Views/_ViewImports.cshtml]
+[C:/Users/Alan Sánchez/Desktop/Ultragamma/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Alan Sánchez/Documents/GitHub/Ultragamma/Views/_ViewStart.cshtml]
+[C:/Users/Alan Sánchez/Desktop/Ultragamma/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Alan Sánchez/Documents/GitHub/Ultragamma/Views/Shared/Admin.cshtml]
+[C:/Users/Alan Sánchez/Desktop/Ultragamma/Views/Shared/Admin.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEFkbWluLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = b-l8g8d7zga9
 
-[C:/Users/Alan Sánchez/Documents/GitHub/Ultragamma/Views/Shared/_Layout.cshtml]
+[C:/Users/Alan Sánchez/Desktop/Ultragamma/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-svuzc53svw
 
-[C:/Users/Alan Sánchez/Documents/GitHub/Ultragamma/Views/Shared/_LayoutAdmin.cshtml]
+[C:/Users/Alan Sánchez/Desktop/Ultragamma/Views/Shared/_LayoutAdmin.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRBZG1pbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = b-1bnhbeko9m
 
-[C:/Users/Alan Sánchez/Documents/GitHub/Ultragamma/Views/Shared/_LayoutAdmin2.cshtml]
+[C:/Users/Alan Sánchez/Desktop/Ultragamma/Views/Shared/_LayoutAdmin2.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRBZG1pbjIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-qzdu2mljgl
 
-[C:/Users/Alan Sánchez/Documents/GitHub/Ultragamma/Views/Shared/_LayoutUsuario.cshtml]
+[C:/Users/Alan Sánchez/Desktop/Ultragamma/Views/Shared/_LayoutUsuario.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRVc3VhcmlvLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = b-z3ifkl2gqt

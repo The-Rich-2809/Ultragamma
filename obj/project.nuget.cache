@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NMsA/0rie7pZbzhdpcgKw6F4w9EMN1xdmccl6QzTPYwp/08I5We2eKyPXN0UoQklPbXDm7AUZLAVQ1XiCcjC0g==",
+  "dgSpecHash": "NBwEUFDSCAXKBrcrgBn4TCF0byXQRK/Fr64W77ekp6X2rmO/VRZkmoz1RQNEFyqYKkVNzcmgAdRqb0vIKYfXQg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Alan Sánchez\\Documents\\GitHub\\Ultragamma\\Ultragamma.csproj",
+  "projectFilePath": "C:\\Users\\Alan Sánchez\\Desktop\\Ultragamma\\Ultragamma.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Alan Sánchez\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\Alan Sánchez\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

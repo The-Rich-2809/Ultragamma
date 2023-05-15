@@ -2295,11 +2295,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Alan Sánchez\\Documents\\GitHub\\Ultragamma\\Ultragamma.csproj",
+      "projectUniqueName": "C:\\Users\\Alan Sánchez\\Desktop\\Ultragamma\\Ultragamma.csproj",
       "projectName": "Ultragamma",
-      "projectPath": "C:\\Users\\Alan Sánchez\\Documents\\GitHub\\Ultragamma\\Ultragamma.csproj",
+      "projectPath": "C:\\Users\\Alan Sánchez\\Desktop\\Ultragamma\\Ultragamma.csproj",
       "packagesPath": "C:\\Users\\Alan Sánchez\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Alan Sánchez\\Documents\\GitHub\\Ultragamma\\obj\\",
+      "outputPath": "C:\\Users\\Alan Sánchez\\Desktop\\Ultragamma\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Alan Sánchez\\AppData\\Roaming\\NuGet\\NuGet.Config",
