@@ -40,6 +40,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVmVudGFzVGVybWluYWRhcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Huawei/Documents/GitHub/Ultragamma/Views/Compras/Direcciones.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcHJhc1xEaXJlY2Npb25lcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Huawei/Documents/GitHub/Ultragamma/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -103,6 +107,10 @@ build_metadata.AdditionalFiles.CssScope = b-1bnhbeko9m
 [C:/Users/Huawei/Documents/GitHub/Ultragamma/Views/Shared/_LayoutAdmin2.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRBZG1pbjIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-qzdu2mljgl
+
+[C:/Users/Huawei/Documents/GitHub/Ultragamma/Views/Shared/_LayoutCompras.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRDb21wcmFzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = b-wk9usdt5j8
 
 [C:/Users/Huawei/Documents/GitHub/Ultragamma/Views/Shared/_LayoutUsuario.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRVc3VhcmlvLmNzaHRtbA==
