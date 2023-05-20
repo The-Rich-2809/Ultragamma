@@ -24,10 +24,6 @@
                     </ul>
 
                     <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
-                        <input type="search" class="form-control form-control-dark" placeholder="Search..." aria-label="Search">
-                    </form>
-
-                    <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
                         <a asp-area="" asp-controller="Productos" asp-action="Carrito"><i class="text-white fa-solid fa-cart-shopping"></i></a>
                     </form>
 
@@ -36,7 +32,7 @@
                             <img src="https://github.com/mdo.png" alt="mdo" width="32" height="32" class="rounded-circle">
                         </a>
                         <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton">
-                            <li><a class="dropdown-item" href="#">@ViewBag.header[1]</a></li>
+                            <li><a class="dropdown-item" href="#">@ViewBag.Nombre</a></li>
                             <li><hr class="dropdown-divider"></li>
                             <li><a class="dropdown-item" asp-area="" asp-controller="Home" asp-action="CerrarSesion"><i class="fa-solid fa-right-to-bracket"></i>  Cerrar Sesión</a></li>
                         </ul>

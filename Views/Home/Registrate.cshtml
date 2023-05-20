@@ -17,21 +17,25 @@
                     <h1 class="h3 mb-3 fw-normal titulo">Registrate</h1>
 
                     <div class="form-floating shadow" style="margin-bottom: 10px; margin-top: 15px;">
-                        <input name="Correo" type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                        <input name="Correo" type="email" class="form-control" id="floatingInput" placeholder="name@example.com" required>
                         <label for="floatingInput" class="txt">Email</label>
                     </div>
                     <div class="form-floating shadow" style="--bs-body-bg:#0dcaf0">
-                        <input name="Contrasena" type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                        <input name="Contrasena" type="password" class="form-control" id="floatingPassword" placeholder="Password" required>
                         <label for="floatingPassword" class="txt">Contraseña</label>
                     </div>
+                    <div class="form-floating shadow" style="--bs-body-bg:#0dcaf0">
+                        <input name="Contrasena2" type="password" class="form-control" id="floatingPassword" placeholder="Password" required>
+                        <label for="floatingPassword" class="txt">Repite la contraseña</label>
+                    </div>
                     <div class="form-floating shadow" style="margin-bottom: 10px; margin-top: 15px;">
-                        <input name="Nombre" class="form-control" id="floatingInput" placeholder="name">
+                        <input name="Nombre" class="form-control" id="floatingInput" placeholder="name" required>
                         <label for="floatingInput" class="txt">Nombre</label>
                     </div>
 
                     <button type="submit" class="btn btn-primary bg-info btn1 w-100 btn btn-lg" style="margin-top: 15px;">Registrate</button>
                 </form>
-                <h1>@ViewBag.Mensaje</h1>
+                <h1 class="text-black">@ViewBag.Mensaje</h1>
             </main>
         </div>
     </div>

@@ -1,9 +1,9 @@
 ﻿@{
-    if (ViewBag.Header[0] == "1")
+    if (ViewBag.Nivel == "Admin")
     {
         Layout = "_LayoutAdmin";
     }
-    else if (ViewBag.Header[0] == "2")
+    else if (ViewBag.Nivel == "Cliente")
     {
         Layout = "_LayoutUsuario";
     }

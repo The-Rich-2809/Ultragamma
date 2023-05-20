@@ -1,64 +1,115 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using System.Diagnostics;
+using System.Net;
+using Microsoft.AspNetCore.Mvc;
 using Ultragamma.Models;
 
-namespace Ultragamma.Controllers
+namespace Ultragamma.Controllers;
+
+public class HomeController : Controller
 {
-    public class HomeController : Controller
+    public readonly ApplicationDbContex _contexto;
+    public HomeController(ApplicationDbContex contexto)
     {
-        public IActionResult Index()
-        {
-            ViewBag.Header = RegistrosModel.Header();
-            return View();
-        }
+        _contexto = contexto;
+    }
+    public IActionResult Index()
+    {
+        var miCookie = HttpContext.Request.Cookies["MiCookie"];
 
-        [HttpGet]
-        public IActionResult IniciarSesion()
+        if (miCookie != null)
         {
-            ViewBag.Mensaje = RegistrosModel.Mensaje;
-            return View();
-        }
-        [HttpPost]
-        public RedirectToActionResult IniciarSesion(string Correo, string Contrasena)
-        {
-            RegistrosModel._Correo = Correo;
-            RegistrosModel._Contrasena = Contrasena;
-            if (RegistrosModel.IniciarSesion() == true)
+            List<Usuario> listaUsuarios = _contexto.Usuario.ToList();
+            foreach (var user in listaUsuarios)
             {
-                return RedirectToAction("Index");
-            }
-            else
-            {
-                return RedirectToAction("IniciarSesion");
+                if (miCookie == user.Correo)
+                {
+                    ViewBag.Nombre = user.Nombre;
+                    ViewBag.Nivel = user.Nivel;
+                }
             }
         }
+        return View();
+    }
 
-        [HttpGet]
-        public IActionResult Registrate()
+    [HttpGet]
+    public IActionResult IniciarSesion()
+    {
+        return View();
+    }
+    [HttpPost]
+    [ValidateAntiForgeryToken]
+    public IActionResult IniciarSesion(string Correo, string Contrasena)
+    {
+        RegistroModel registro = new RegistroModel(_contexto);
+
+        RegistroModel.Correo = Correo;
+        RegistroModel.Contrasena = Contrasena;
+
+        if (registro.IniciarSesion())
         {
-            ViewBag.Mensaje = RegistrosModel.Mensaje;
-            RegistrosModel.Mensaje = String.Empty;
-            return View();
-        }
-        [HttpPost]
-        public RedirectToActionResult Registrate(string Nombre, string Correo, string Contrasena)
-        {
-            RegistrosModel._Nombre = Nombre;
-            RegistrosModel._Correo = Correo;
-            RegistrosModel._Contrasena = Contrasena;
-            if(RegistrosModel.NuevoUsuario() == true)
-            {
-                RegistrosModel.IniciarSesion();
-                return RedirectToAction("Index");
-            }
-            else
-            {
-                return RedirectToAction("Index");
-            }
-        }
-        public RedirectToActionResult CerrarSesion()
-        {
-            RegistrosModel.CerrarSesion();
+            CookieOptions options = new CookieOptions();
+            options.Expires = DateTime.Now.AddDays(365);
+            options.IsEssential = true;
+            options.Path = "/";
+            HttpContext.Response.Cookies.Append("MiCookie", Correo, options);
+
             return RedirectToAction("Index");
         }
+        else
+        {
+            ViewBag.Mensaje = "Correo y/o Contraseña Incorrecto";
+            return View();
+        }
+    }
+
+    [HttpGet]
+    public IActionResult Registrate()
+    {
+        return View();
+    }
+    [HttpPost]
+    [ValidateAntiForgeryToken]
+    public IActionResult Registrate(Usuario usuario, string Contrasena, string Contrasena2)
+    {
+        if(Contrasena == Contrasena2)
+        {
+            int i = 0;
+            List<Usuario> listaUsuarios = _contexto.Usuario.ToList();
+            foreach (var user in listaUsuarios)
+            {
+                if (usuario.Correo == user.Correo)
+                {
+                    break;
+                }
+                else
+                {
+                    i++;
+                }
+            }
+            if (i == listaUsuarios.Count)
+            {
+                RegistroModel registro = new RegistroModel(_contexto);
+                usuario.Nivel = "Cliente";
+                registro.Registrate(usuario);
+                IniciarSesion(usuario.Correo, usuario.Contrasena);
+                return RedirectToAction(nameof(Index));
+            }
+            else
+            {
+                ViewBag.Mensaje = "Este correo ya esta registrado";
+                return View();
+            }
+        }
+        else
+        {
+            ViewBag.Mensaje = "Las contraseñas no son iguales";
+            return View();
+        }
+        
+    }
+    public RedirectToActionResult CerrarSesion()
+    {
+        HttpContext.Response.Cookies.Delete("MiCookie");
+        return RedirectToAction("Index");
     }
 }

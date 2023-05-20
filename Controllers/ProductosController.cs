@@ -5,30 +5,53 @@ namespace Ultragamma.Controllers
 {
     public class ProductosController : Controller
     {
+        public readonly ApplicationDbContex _contexto;
+        public ProductosController(ApplicationDbContex contexto)
+        {
+            _contexto = contexto;
+        }
+
+        public void Cookies()
+        {
+            var miCookie = HttpContext.Request.Cookies["MiCookie"];
+
+            if (miCookie != null)
+            {
+                List<Usuario> listaUsuarios = _contexto.Usuario.ToList();
+                foreach (var user in listaUsuarios)
+                {
+                    if (miCookie == user.Correo)
+                    {
+                        ViewBag.Nombre = user.Nombre;
+                        ViewBag.Nivel = user.Nivel;
+                    }
+                }
+            }
+        }
         public IActionResult Hombres()
         {
-            ViewBag.Header = RegistrosModel.Header();
+            Cookies();
             return View();
         }
         public IActionResult Mujeres()
         {
-            ViewBag.Header = RegistrosModel.Header();
+            Cookies();
             return View();
         }
         public IActionResult Accesorios()
         {
-            ViewBag.Header = RegistrosModel.Header();
+            Cookies();
             return View();
         }
         public IActionResult Productos()
         {
-            ViewBag.Header = RegistrosModel.Header();
+            Cookies();
             ViewBag.image = "login.jpg";
             return View();
         }
         public IActionResult Carrito()
         {
-            ViewBag.Header = RegistrosModel.Header();
+            Cookies();
             return View();
         }
     }
