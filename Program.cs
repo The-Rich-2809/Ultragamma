@@ -1,5 +1,7 @@
 using Microsoft.EntityFrameworkCore;
+using Ultragamma.Helpers;
 using Ultragamma.Models;
+using Ultragamma.Providers;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -10,6 +12,8 @@ builder.Services.AddDbContext<ApplicationDbContex>(opciones =>
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddSingleton<PathProvider>();
+builder.Services.AddSingleton<HelperUploadFiles>();
 
 var app = builder.Build();
 

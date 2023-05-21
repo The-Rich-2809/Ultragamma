@@ -16,7 +16,7 @@
     <main class="container">
         <div class="my-3 p-3 bg-body rounded shadow-sm">
             <h1>Editar Usuario</h1>
-            <form class="needs-validation" novalidate method="post">
+            <form class="needs-validation" novalidate method="post" enctype="multipart/form-data">
                 <div class="row g-3">
                     <div class="col-md-4">
                         <label asp-for="Correo" class="form-label">Correo</label>
@@ -59,6 +59,15 @@
                         <input name="Contrasena2" type="text" class="form-control" id="Contrasena" required>
                         <div class="invalid-feedback">
                             Se requiere que repita la contraseña
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="mb-3">
+                            <label for="formFileMultiple" class="form-label">Seleccione las imagenes que llevara el producto</label>
+                            <input name="Imagen" class="form-control" type="file" id="formFileMultiple" multiple>
+                        </div>
+                        <div class="invalid-feedback">
+                            Zip code required.
                         </div>
                     </div>
                 </div>

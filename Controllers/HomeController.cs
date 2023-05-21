@@ -25,6 +25,7 @@ public class HomeController : Controller
                 {
                     ViewBag.Nombre = user.Nombre;
                     ViewBag.Nivel = user.Nivel;
+                    ViewBag.FotoPerfil = user.DireccionImagePerfil;
                 }
             }
         }
@@ -90,6 +91,7 @@ public class HomeController : Controller
             {
                 RegistroModel registro = new RegistroModel(_contexto);
                 usuario.Nivel = "Cliente";
+                usuario.DireccionImagePerfil = "../Images/Usuarios/usuario.png";
                 registro.Registrate(usuario);
                 IniciarSesion(usuario.Correo, usuario.Contrasena);
                 return RedirectToAction(nameof(Index));

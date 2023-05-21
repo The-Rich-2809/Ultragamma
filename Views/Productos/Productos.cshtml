@@ -58,11 +58,27 @@
             </div>
             <div class="me-md-3 pt-3 px-3 pt-md-5 overflow-hidden">
                 <div class="mx-auto" style="width: 100%; height: auto;">
-                    <h1>Playera basica</h1>
+                    <h1>Playera Básica</h1>
                     <br>
-                    <h5>$129 MXN</h5>
+                    <h5>$129 MXN</h5>  <p class="" style="color: rgb(9, 10, 10);">En Stock</p>
+                    <h5>Descripción:</h5>
+                    <p class="" style="color: rgb(9, 10, 10);">Playera manga corta, compuesta de 50% Algodón y 50% Poliéster.</p>
+                    <h5>Colores:</h5>
                     <br />
-                    <p class="" style="color: rgb(93, 93, 93);">Talla</p>
+                    <h5>Tallas:</h5>
+                    <br />
+                    <div class="row g-3">
+                        <div class="col-sm-3">
+                            <form>
+                                <a asp-controller="Productos" asp-action="Carrito" type="button" class="btn btn-outline-dark">Añadir al carrito</a>
+                            </form>
+                        </div>
+                        <div class="col-sm-3">
+                            <form>
+                                <a asp-controller="Compras" asp-action="Direcciones" type="button" class="btn btn-outline-primary">Comprar Ahora</a>
+                            </form>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

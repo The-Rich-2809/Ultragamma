@@ -75,6 +75,10 @@ namespace Ultragamma.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("DireccionImagePerfil")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("Nivel")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");

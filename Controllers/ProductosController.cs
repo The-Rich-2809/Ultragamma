@@ -24,6 +24,7 @@ namespace Ultragamma.Controllers
                     {
                         ViewBag.Nombre = user.Nombre;
                         ViewBag.Nivel = user.Nivel;
+                        ViewBag.FotoPerfil = user.DireccionImagePerfil;
                     }
                 }
             }
