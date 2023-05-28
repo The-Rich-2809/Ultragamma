@@ -8,14 +8,14 @@
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/Ultragamma.styles.css" asp-append-version="true" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link href="~/css/headers.css" rel="stylesheet">
 </head>
 <body>
     
-    <header class="site-header sticky-top py-1 bg-dark">
+    <header class="site-header sticky-top py-1 bg-black">
         <nav class="container d-flex flex-column flex-md-row justify-content-between">
-            <div class="container">
+           <div class="container-fluid">
                 <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
                     <i class="fa-thin fa-cloud-music"></i>
                     <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
@@ -46,38 +46,42 @@
         </main>
     </div>
 
-    <div class="text-center text-white bg-dark">
+    <style>
+        .bx bxl-facebook-circle{ 
+            color: white;
+        }
+
+        .bx bxl-instagram-alt{
+            color:white;
+        }
+
+        .bx bxl-gmail bx-lg{
+            color:white;
+        }
+
+    </style>
+
+    <div class="text-center text-white bg-black">
       <footer class="py-5 container">
         <div class=" row">
           <div class="col-2">
-            <h5>Facebook</h5>
-            <ul class="nav flex-column">
-                 <box-icon type='logo' name='facebook-circle'></box-icon>
-            </ul>
+                <a href="#"><i class='bx bxl-facebook-circle bx-lg'></i></a>
           </div>
 
           <div class="col-2">
-            <h5>Instagram</h5>
-            <ul class="nav flex-column">
-                        <box-icon name='instagram' type='logo'></box-icon>
-            </ul>
+                    <a href="https://instagram.com/ultragamma_gram?igshid=MmIzYWVlNDQ5Yg=="> <i class='bx bxl-instagram-alt bx-lg'></i></a>
           </div>
 
           <div class="col-2">
-            <h5>Gmail</h5>
-            <ul class="nav flex-column">
-                        <box-icon name='gmail' type='logo'></box-icon>
-            </ul>
+                <a href="#"><i class='bx bxl-tiktok bx-lg'></i></a>
           </div>
 
           <div class="col-4 offset-1">
             <form>
-              <h5>Subscribe to our newsletter</h5>
-              <p>Monthly digest of whats new and exciting from us.</p>
               <div class="d-flex w-100 gap-2">
                 <label for="newsletter1" class="visually-hidden">Email address</label>
-                <input id="newsletter1" type="text" class="form-control form-control-dark" placeholder="Email address">
-                <button class="btn btn-primary" type="button">Subscribe</button>
+                <input id="newsletter1" type="text" class="form-control form-control-black" placeholder="Ingresa tu correo para mandarte mensajes ">
+                <button class="btn btn-primary" type="button">Aceptar</button>
               </div>
             </form>
           </div>

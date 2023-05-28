@@ -77,6 +77,10 @@
       "PackagePath": "staticwebassets\\Images\\Index3.jpg"
     },
     {
+      "Id": "C:\\Users\\jnava\\Documents\\GitHub\\Ultragamma\\wwwroot\\Images\\P1.jpg",
+      "PackagePath": "staticwebassets\\Images\\P1.jpg"
+    },
+    {
       "Id": "C:\\Users\\jnava\\Documents\\GitHub\\Ultragamma\\wwwroot\\Images\\Sign-up.jpg",
       "PackagePath": "staticwebassets\\Images\\Sign-up.jpg"
     },
@@ -95,6 +99,10 @@
     {
       "Id": "C:\\Users\\jnava\\Documents\\GitHub\\Ultragamma\\wwwroot\\Images\\Usuarios\\usuario.png",
       "PackagePath": "staticwebassets\\Images\\Usuarios\\usuario.png"
+    },
+    {
+      "Id": "C:\\Users\\jnava\\Documents\\GitHub\\Ultragamma\\wwwroot\\Images\\VIdeoIndex.mp4",
+      "PackagePath": "staticwebassets\\Images\\VIdeoIndex.mp4"
     },
     {
       "Id": "C:\\Users\\jnava\\Documents\\GitHub\\Ultragamma\\wwwroot\\Images\\accesorios.jpg",

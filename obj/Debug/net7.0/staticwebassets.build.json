@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "0Y9et7PyOk/lLeuJx+c+XWythbk0T2FUBQgz5BIMN4c=",
+  "Hash": "JRkJb5FkIMYR4oE6S4Alw7Syr6Nu+m7SHfUdKtNQOQU=",
   "Source": "Ultragamma",
   "BasePath": "_content/Ultragamma",
   "Mode": "Default",
@@ -510,6 +510,23 @@
       "OriginalItemSpec": "wwwroot\\Images\\mujer.jpg"
     },
     {
+      "Identity": "C:\\Users\\jnava\\Documents\\GitHub\\Ultragamma\\wwwroot\\Images\\P1.jpg",
+      "SourceId": "Ultragamma",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\jnava\\Documents\\GitHub\\Ultragamma\\wwwroot\\",
+      "BasePath": "_content/Ultragamma",
+      "RelativePath": "Images/P1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\P1.jpg"
+    },
+    {
       "Identity": "C:\\Users\\jnava\\Documents\\GitHub\\Ultragamma\\wwwroot\\Images\\Sign-up.jpg",
       "SourceId": "Ultragamma",
       "SourceType": "Discovered",
@@ -593,6 +610,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\Usuarios\\usuario.png"
+    },
+    {
+      "Identity": "C:\\Users\\jnava\\Documents\\GitHub\\Ultragamma\\wwwroot\\Images\\VIdeoIndex.mp4",
+      "SourceId": "Ultragamma",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\jnava\\Documents\\GitHub\\Ultragamma\\wwwroot\\",
+      "BasePath": "_content/Ultragamma",
+      "RelativePath": "Images/VIdeoIndex.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\VIdeoIndex.mp4"
     },
     {
       "Identity": "C:\\Users\\jnava\\Documents\\GitHub\\Ultragamma\\wwwroot\\js\\bootstrap.bundle.min.js",
