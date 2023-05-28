@@ -1,0 +1,68 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Ultragamma_Presentacion</title>
+    <link rel="stylesheet" href="~/css/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/Ultragamma_Presentacion.styles.css" asp-append-version="true" />
+
+    <!-- Bootstrap core CSS -->
+    <link href="~/css/dist/css/bootstrap.min.css" rel="stylesheet">
+
+
+    <!-- Custom styles for this template -->
+    <link href="~/css/navbar.css" rel="stylesheet">
+</head>
+<body>
+
+    <main>
+
+        <nav class="navbar navbar-expand-sm navbar-dark bg-black" aria-label="Third navbar example">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Ultragamma</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample03" aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarsExample03">
+                    <ul class="navbar-nav me-auto mb-2 mb-sm-0">
+                        <li class="nav-item">
+                            <a class="nav-link text-white" asp-area="" asp-controller="Ultragamma" asp-action="Carrusel">Carrusel</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" asp-area="" asp-controller="Ultragamma" asp-action="QuienesSomos">¿Quienes Somos?</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" asp-area="" asp-controller="Ultragamma" asp-action="Objetivos">Objetivos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" asp-area="" asp-controller="Ultragamma" asp-action="Alcances">Alcances</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" asp-area="" asp-controller="Ultragamma" asp-action="Materias">Materias</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" asp-area="" asp-controller="Ultragamma" asp-action="Titulo">Titulo</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </main>
+
+
+    <script src="../wwwroot/css/dist/js/bootstrap.bundle.min.js"></script>
+
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

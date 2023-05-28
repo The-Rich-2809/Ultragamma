@@ -1,0 +1,124 @@
+C:\Users\jnava\OneDrive\Escritorio\Ultragamma Presentacion\Ultragamma Presentacion\obj\Debug\net6.0\Ultragamma Presentacion.csproj.AssemblyReference.cache
+C:\Users\jnava\OneDrive\Escritorio\Ultragamma Presentacion\Ultragamma Presentacion\obj\Debug\net6.0\Ultragamma Presentacion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jnava\OneDrive\Escritorio\Ultragamma Presentacion\Ultragamma Presentacion\obj\Debug\net6.0\Ultragamma Presentacion.AssemblyInfoInputs.cache
+C:\Users\jnava\OneDrive\Escritorio\Ultragamma Presentacion\Ultragamma Presentacion\obj\Debug\net6.0\Ultragamma Presentacion.AssemblyInfo.cs
+C:\Users\jnava\OneDrive\Escritorio\Ultragamma Presentacion\Ultragamma Presentacion\obj\Debug\net6.0\Ultragamma Presentacion.csproj.CoreCompileInputs.cache
+C:\Users\jnava\OneDrive\Escritorio\Ultragamma Presentacion\Ultragamma Presentacion\obj\Debug\net6.0\Ultragamma Presentacion.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\jnava\OneDrive\Escritorio\Ultragamma Presentacion\Ultragamma Presentacion\obj\Debug\net6.0\Ultragamma Presentacion.RazorAssemblyInfo.cache
+C:\Users\jnava\OneDrive\Escritorio\Ultragamma Presentacion\Ultragamma Presentacion\obj\Debug\net6.0\Ultragamma Presentacion.RazorAssemblyInfo.cs
+C:\Users\jnava\OneDrive\Escritorio\Ultragamma Presentacion\Ultragamma Presentacion\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\jnava\OneDrive\Escritorio\Ultragamma Presentacion\Ultragamma Presentacion\bin\Debug\net6.0\appsettings.json
+C:\Users\jnava\OneDrive\Escritorio\Ultragamma Presentacion\Ultragamma Presentacion\bin\Debug\net6.0\Ultragamma Presentacion.staticwebassets.runtime.json
+C:\Users\jnava\OneDrive\Escritorio\Ultragamma Presentacion\Ultragamma Presentacion\bin\Debug\net6.0\Ultragamma Presentacion.exe
+C:\Users\jnava\OneDrive\Escritorio\Ultragamma Presentacion\Ultragamma Presentacion\bin\Debug\net6.0\Ultragamma Presentacion.deps.json
+C:\Users\jnava\OneDrive\Escritorio\Ultragamma Presentacion\Ultragamma Presentacion\bin\Debug\net6.0\Ultragamma Presentacion.runtimeconfig.json
+C:\Users\jnava\OneDrive\Escritorio\Ultragamma Presentacion\Ultragamma Presentacion\bin\Debug\net6.0\Ultragamma Presentacion.dll
+C:\Users\jnava\OneDrive\Escritorio\Ultragamma Presentacion\Ultragamma Presentacion\bin\Debug\net6.0\Ultragamma Presentacion.pdb
+C:\Users\jnava\OneDrive\Escritorio\Ultragamma Presentacion\Ultragamma Presentacion\obj\Debug\net6.0\staticwebassets\msbuild.Ultragamma Presentacion.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\jnava\OneDrive\Escritorio\Ultragamma Presentacion\Ultragamma Presentacion\obj\Debug\net6.0\staticwebassets\msbuild.build.Ultragamma Presentacion.props
+C:\Users\jnava\OneDrive\Escritorio\Ultragamma Presentacion\Ultragamma Presentacion\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Ultragamma Presentacion.props
+C:\Users\jnava\OneDrive\Escritorio\Ultragamma Presentacion\Ultragamma Presentacion\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Ultragamma Presentacion.props
+C:\Users\jnava\OneDrive\Escritorio\Ultragamma Presentacion\Ultragamma Presentacion\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\jnava\OneDrive\Escritorio\Ultragamma Presentacion\Ultragamma Presentacion\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\jnava\OneDrive\Escritorio\Ultragamma Presentacion\Ultragamma Presentacion\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\jnava\OneDrive\Escritorio\Ultragamma Presentacion\Ultragamma Presentacion\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\jnava\OneDrive\Escritorio\Ultragamma Presentacion\Ultragamma Presentacion\obj\Debug\net6.0\scopedcss\bundle\Ultragamma Presentacion.styles.css
+C:\Users\jnava\OneDrive\Escritorio\Ultragamma Presentacion\Ultragamma Presentacion\obj\Debug\net6.0\scopedcss\projectbundle\Ultragamma Presentacion.bundle.scp.css
+C:\Users\jnava\OneDrive\Escritorio\Ultragamma Presentacion\Ultragamma Presentacion\obj\Debug\net6.0\Ultragamma Presentacion.dll
+C:\Users\jnava\OneDrive\Escritorio\Ultragamma Presentacion\Ultragamma Presentacion\obj\Debug\net6.0\refint\Ultragamma Presentacion.dll
+C:\Users\jnava\OneDrive\Escritorio\Ultragamma Presentacion\Ultragamma Presentacion\obj\Debug\net6.0\Ultragamma Presentacion.pdb
+C:\Users\jnava\OneDrive\Escritorio\Ultragamma Presentacion\Ultragamma Presentacion\obj\Debug\net6.0\Ultragamma Presentacion.genruntimeconfig.cache
+C:\Users\jnava\OneDrive\Escritorio\Ultragamma Presentacion\Ultragamma Presentacion\obj\Debug\net6.0\ref\Ultragamma Presentacion.dll
+C:\Users\Alan Sánchez\Downloads\Ultragamma Presentacion\Ultragamma Presentacion\Ultragamma Presentacion\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Alan Sánchez\Downloads\Ultragamma Presentacion\Ultragamma Presentacion\Ultragamma Presentacion\bin\Debug\net6.0\appsettings.json
+C:\Users\Alan Sánchez\Downloads\Ultragamma Presentacion\Ultragamma Presentacion\Ultragamma Presentacion\bin\Debug\net6.0\Ultragamma Presentacion.staticwebassets.runtime.json
+C:\Users\Alan Sánchez\Downloads\Ultragamma Presentacion\Ultragamma Presentacion\Ultragamma Presentacion\bin\Debug\net6.0\Ultragamma Presentacion.exe
+C:\Users\Alan Sánchez\Downloads\Ultragamma Presentacion\Ultragamma Presentacion\Ultragamma Presentacion\bin\Debug\net6.0\Ultragamma Presentacion.deps.json
+C:\Users\Alan Sánchez\Downloads\Ultragamma Presentacion\Ultragamma Presentacion\Ultragamma Presentacion\bin\Debug\net6.0\Ultragamma Presentacion.runtimeconfig.json
+C:\Users\Alan Sánchez\Downloads\Ultragamma Presentacion\Ultragamma Presentacion\Ultragamma Presentacion\bin\Debug\net6.0\Ultragamma Presentacion.dll
+C:\Users\Alan Sánchez\Downloads\Ultragamma Presentacion\Ultragamma Presentacion\Ultragamma Presentacion\bin\Debug\net6.0\Ultragamma Presentacion.pdb
+C:\Users\Alan Sánchez\Downloads\Ultragamma Presentacion\Ultragamma Presentacion\Ultragamma Presentacion\obj\Debug\net6.0\Ultragamma Presentacion.csproj.AssemblyReference.cache
+C:\Users\Alan Sánchez\Downloads\Ultragamma Presentacion\Ultragamma Presentacion\Ultragamma Presentacion\obj\Debug\net6.0\Ultragamma Presentacion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alan Sánchez\Downloads\Ultragamma Presentacion\Ultragamma Presentacion\Ultragamma Presentacion\obj\Debug\net6.0\Ultragamma Presentacion.AssemblyInfoInputs.cache
+C:\Users\Alan Sánchez\Downloads\Ultragamma Presentacion\Ultragamma Presentacion\Ultragamma Presentacion\obj\Debug\net6.0\Ultragamma Presentacion.AssemblyInfo.cs
+C:\Users\Alan Sánchez\Downloads\Ultragamma Presentacion\Ultragamma Presentacion\Ultragamma Presentacion\obj\Debug\net6.0\Ultragamma Presentacion.csproj.CoreCompileInputs.cache
+C:\Users\Alan Sánchez\Downloads\Ultragamma Presentacion\Ultragamma Presentacion\Ultragamma Presentacion\obj\Debug\net6.0\Ultragamma Presentacion.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Alan Sánchez\Downloads\Ultragamma Presentacion\Ultragamma Presentacion\Ultragamma Presentacion\obj\Debug\net6.0\Ultragamma Presentacion.RazorAssemblyInfo.cache
+C:\Users\Alan Sánchez\Downloads\Ultragamma Presentacion\Ultragamma Presentacion\Ultragamma Presentacion\obj\Debug\net6.0\Ultragamma Presentacion.RazorAssemblyInfo.cs
+C:\Users\Alan Sánchez\Downloads\Ultragamma Presentacion\Ultragamma Presentacion\Ultragamma Presentacion\obj\Debug\net6.0\staticwebassets\msbuild.Ultragamma Presentacion.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Alan Sánchez\Downloads\Ultragamma Presentacion\Ultragamma Presentacion\Ultragamma Presentacion\obj\Debug\net6.0\staticwebassets\msbuild.build.Ultragamma Presentacion.props
+C:\Users\Alan Sánchez\Downloads\Ultragamma Presentacion\Ultragamma Presentacion\Ultragamma Presentacion\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Ultragamma Presentacion.props
+C:\Users\Alan Sánchez\Downloads\Ultragamma Presentacion\Ultragamma Presentacion\Ultragamma Presentacion\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Ultragamma Presentacion.props
+C:\Users\Alan Sánchez\Downloads\Ultragamma Presentacion\Ultragamma Presentacion\Ultragamma Presentacion\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\Alan Sánchez\Downloads\Ultragamma Presentacion\Ultragamma Presentacion\Ultragamma Presentacion\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Alan Sánchez\Downloads\Ultragamma Presentacion\Ultragamma Presentacion\Ultragamma Presentacion\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Alan Sánchez\Downloads\Ultragamma Presentacion\Ultragamma Presentacion\Ultragamma Presentacion\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Alan Sánchez\Downloads\Ultragamma Presentacion\Ultragamma Presentacion\Ultragamma Presentacion\obj\Debug\net6.0\scopedcss\bundle\Ultragamma Presentacion.styles.css
+C:\Users\Alan Sánchez\Downloads\Ultragamma Presentacion\Ultragamma Presentacion\Ultragamma Presentacion\obj\Debug\net6.0\scopedcss\projectbundle\Ultragamma Presentacion.bundle.scp.css
+C:\Users\Alan Sánchez\Downloads\Ultragamma Presentacion\Ultragamma Presentacion\Ultragamma Presentacion\obj\Debug\net6.0\Ultragamma Presentacion.dll
+C:\Users\Alan Sánchez\Downloads\Ultragamma Presentacion\Ultragamma Presentacion\Ultragamma Presentacion\obj\Debug\net6.0\refint\Ultragamma Presentacion.dll
+C:\Users\Alan Sánchez\Downloads\Ultragamma Presentacion\Ultragamma Presentacion\Ultragamma Presentacion\obj\Debug\net6.0\Ultragamma Presentacion.pdb
+C:\Users\Alan Sánchez\Downloads\Ultragamma Presentacion\Ultragamma Presentacion\Ultragamma Presentacion\obj\Debug\net6.0\Ultragamma Presentacion.genruntimeconfig.cache
+C:\Users\Alan Sánchez\Downloads\Ultragamma Presentacion\Ultragamma Presentacion\Ultragamma Presentacion\obj\Debug\net6.0\ref\Ultragamma Presentacion.dll
+C:\Users\jnava\Documents\Ultragamma Presentacion\Ultragamma Presentacion\Ultragamma Presentacion\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\jnava\Documents\Ultragamma Presentacion\Ultragamma Presentacion\Ultragamma Presentacion\bin\Debug\net6.0\appsettings.json
+C:\Users\jnava\Documents\Ultragamma Presentacion\Ultragamma Presentacion\Ultragamma Presentacion\bin\Debug\net6.0\Ultragamma Presentacion.staticwebassets.runtime.json
+C:\Users\jnava\Documents\Ultragamma Presentacion\Ultragamma Presentacion\Ultragamma Presentacion\bin\Debug\net6.0\Ultragamma Presentacion.exe
+C:\Users\jnava\Documents\Ultragamma Presentacion\Ultragamma Presentacion\Ultragamma Presentacion\bin\Debug\net6.0\Ultragamma Presentacion.deps.json
+C:\Users\jnava\Documents\Ultragamma Presentacion\Ultragamma Presentacion\Ultragamma Presentacion\bin\Debug\net6.0\Ultragamma Presentacion.runtimeconfig.json
+C:\Users\jnava\Documents\Ultragamma Presentacion\Ultragamma Presentacion\Ultragamma Presentacion\bin\Debug\net6.0\Ultragamma Presentacion.dll
+C:\Users\jnava\Documents\Ultragamma Presentacion\Ultragamma Presentacion\Ultragamma Presentacion\bin\Debug\net6.0\Ultragamma Presentacion.pdb
+C:\Users\jnava\Documents\Ultragamma Presentacion\Ultragamma Presentacion\Ultragamma Presentacion\obj\Debug\net6.0\Ultragamma Presentacion.csproj.AssemblyReference.cache
+C:\Users\jnava\Documents\Ultragamma Presentacion\Ultragamma Presentacion\Ultragamma Presentacion\obj\Debug\net6.0\Ultragamma Presentacion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jnava\Documents\Ultragamma Presentacion\Ultragamma Presentacion\Ultragamma Presentacion\obj\Debug\net6.0\Ultragamma Presentacion.AssemblyInfoInputs.cache
+C:\Users\jnava\Documents\Ultragamma Presentacion\Ultragamma Presentacion\Ultragamma Presentacion\obj\Debug\net6.0\Ultragamma Presentacion.AssemblyInfo.cs
+C:\Users\jnava\Documents\Ultragamma Presentacion\Ultragamma Presentacion\Ultragamma Presentacion\obj\Debug\net6.0\Ultragamma Presentacion.csproj.CoreCompileInputs.cache
+C:\Users\jnava\Documents\Ultragamma Presentacion\Ultragamma Presentacion\Ultragamma Presentacion\obj\Debug\net6.0\Ultragamma Presentacion.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\jnava\Documents\Ultragamma Presentacion\Ultragamma Presentacion\Ultragamma Presentacion\obj\Debug\net6.0\Ultragamma Presentacion.RazorAssemblyInfo.cache
+C:\Users\jnava\Documents\Ultragamma Presentacion\Ultragamma Presentacion\Ultragamma Presentacion\obj\Debug\net6.0\Ultragamma Presentacion.RazorAssemblyInfo.cs
+C:\Users\jnava\Documents\Ultragamma Presentacion\Ultragamma Presentacion\Ultragamma Presentacion\obj\Debug\net6.0\staticwebassets\msbuild.Ultragamma Presentacion.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\jnava\Documents\Ultragamma Presentacion\Ultragamma Presentacion\Ultragamma Presentacion\obj\Debug\net6.0\staticwebassets\msbuild.build.Ultragamma Presentacion.props
+C:\Users\jnava\Documents\Ultragamma Presentacion\Ultragamma Presentacion\Ultragamma Presentacion\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Ultragamma Presentacion.props
+C:\Users\jnava\Documents\Ultragamma Presentacion\Ultragamma Presentacion\Ultragamma Presentacion\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Ultragamma Presentacion.props
+C:\Users\jnava\Documents\Ultragamma Presentacion\Ultragamma Presentacion\Ultragamma Presentacion\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\jnava\Documents\Ultragamma Presentacion\Ultragamma Presentacion\Ultragamma Presentacion\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\jnava\Documents\Ultragamma Presentacion\Ultragamma Presentacion\Ultragamma Presentacion\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\jnava\Documents\Ultragamma Presentacion\Ultragamma Presentacion\Ultragamma Presentacion\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\jnava\Documents\Ultragamma Presentacion\Ultragamma Presentacion\Ultragamma Presentacion\obj\Debug\net6.0\scopedcss\bundle\Ultragamma Presentacion.styles.css
+C:\Users\jnava\Documents\Ultragamma Presentacion\Ultragamma Presentacion\Ultragamma Presentacion\obj\Debug\net6.0\scopedcss\projectbundle\Ultragamma Presentacion.bundle.scp.css
+C:\Users\jnava\Documents\Ultragamma Presentacion\Ultragamma Presentacion\Ultragamma Presentacion\obj\Debug\net6.0\Ultragamma Presentacion.dll
+C:\Users\jnava\Documents\Ultragamma Presentacion\Ultragamma Presentacion\Ultragamma Presentacion\obj\Debug\net6.0\refint\Ultragamma Presentacion.dll
+C:\Users\jnava\Documents\Ultragamma Presentacion\Ultragamma Presentacion\Ultragamma Presentacion\obj\Debug\net6.0\Ultragamma Presentacion.pdb
+C:\Users\jnava\Documents\Ultragamma Presentacion\Ultragamma Presentacion\Ultragamma Presentacion\obj\Debug\net6.0\Ultragamma Presentacion.genruntimeconfig.cache
+C:\Users\jnava\Documents\Ultragamma Presentacion\Ultragamma Presentacion\Ultragamma Presentacion\obj\Debug\net6.0\ref\Ultragamma Presentacion.dll
+C:\Users\jnava\OneDrive\Escritorio\Ultragamma Presentacion\Ultragamma Presentacion\Ultragamma Presentacion\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\jnava\OneDrive\Escritorio\Ultragamma Presentacion\Ultragamma Presentacion\Ultragamma Presentacion\bin\Debug\net6.0\appsettings.json
+C:\Users\jnava\OneDrive\Escritorio\Ultragamma Presentacion\Ultragamma Presentacion\Ultragamma Presentacion\bin\Debug\net6.0\Ultragamma Presentacion.staticwebassets.runtime.json
+C:\Users\jnava\OneDrive\Escritorio\Ultragamma Presentacion\Ultragamma Presentacion\Ultragamma Presentacion\bin\Debug\net6.0\Ultragamma Presentacion.exe
+C:\Users\jnava\OneDrive\Escritorio\Ultragamma Presentacion\Ultragamma Presentacion\Ultragamma Presentacion\bin\Debug\net6.0\Ultragamma Presentacion.deps.json
+C:\Users\jnava\OneDrive\Escritorio\Ultragamma Presentacion\Ultragamma Presentacion\Ultragamma Presentacion\bin\Debug\net6.0\Ultragamma Presentacion.runtimeconfig.json
+C:\Users\jnava\OneDrive\Escritorio\Ultragamma Presentacion\Ultragamma Presentacion\Ultragamma Presentacion\bin\Debug\net6.0\Ultragamma Presentacion.dll
+C:\Users\jnava\OneDrive\Escritorio\Ultragamma Presentacion\Ultragamma Presentacion\Ultragamma Presentacion\bin\Debug\net6.0\Ultragamma Presentacion.pdb
+C:\Users\jnava\OneDrive\Escritorio\Ultragamma Presentacion\Ultragamma Presentacion\Ultragamma Presentacion\obj\Debug\net6.0\Ultragamma Presentacion.csproj.AssemblyReference.cache
+C:\Users\jnava\OneDrive\Escritorio\Ultragamma Presentacion\Ultragamma Presentacion\Ultragamma Presentacion\obj\Debug\net6.0\Ultragamma Presentacion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jnava\OneDrive\Escritorio\Ultragamma Presentacion\Ultragamma Presentacion\Ultragamma Presentacion\obj\Debug\net6.0\Ultragamma Presentacion.AssemblyInfoInputs.cache
+C:\Users\jnava\OneDrive\Escritorio\Ultragamma Presentacion\Ultragamma Presentacion\Ultragamma Presentacion\obj\Debug\net6.0\Ultragamma Presentacion.AssemblyInfo.cs
+C:\Users\jnava\OneDrive\Escritorio\Ultragamma Presentacion\Ultragamma Presentacion\Ultragamma Presentacion\obj\Debug\net6.0\Ultragamma Presentacion.csproj.CoreCompileInputs.cache
+C:\Users\jnava\OneDrive\Escritorio\Ultragamma Presentacion\Ultragamma Presentacion\Ultragamma Presentacion\obj\Debug\net6.0\Ultragamma Presentacion.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\jnava\OneDrive\Escritorio\Ultragamma Presentacion\Ultragamma Presentacion\Ultragamma Presentacion\obj\Debug\net6.0\Ultragamma Presentacion.RazorAssemblyInfo.cache
+C:\Users\jnava\OneDrive\Escritorio\Ultragamma Presentacion\Ultragamma Presentacion\Ultragamma Presentacion\obj\Debug\net6.0\Ultragamma Presentacion.RazorAssemblyInfo.cs
+C:\Users\jnava\OneDrive\Escritorio\Ultragamma Presentacion\Ultragamma Presentacion\Ultragamma Presentacion\obj\Debug\net6.0\staticwebassets\msbuild.Ultragamma Presentacion.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\jnava\OneDrive\Escritorio\Ultragamma Presentacion\Ultragamma Presentacion\Ultragamma Presentacion\obj\Debug\net6.0\staticwebassets\msbuild.build.Ultragamma Presentacion.props
+C:\Users\jnava\OneDrive\Escritorio\Ultragamma Presentacion\Ultragamma Presentacion\Ultragamma Presentacion\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Ultragamma Presentacion.props
+C:\Users\jnava\OneDrive\Escritorio\Ultragamma Presentacion\Ultragamma Presentacion\Ultragamma Presentacion\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Ultragamma Presentacion.props
+C:\Users\jnava\OneDrive\Escritorio\Ultragamma Presentacion\Ultragamma Presentacion\Ultragamma Presentacion\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\jnava\OneDrive\Escritorio\Ultragamma Presentacion\Ultragamma Presentacion\Ultragamma Presentacion\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\jnava\OneDrive\Escritorio\Ultragamma Presentacion\Ultragamma Presentacion\Ultragamma Presentacion\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\jnava\OneDrive\Escritorio\Ultragamma Presentacion\Ultragamma Presentacion\Ultragamma Presentacion\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\jnava\OneDrive\Escritorio\Ultragamma Presentacion\Ultragamma Presentacion\Ultragamma Presentacion\obj\Debug\net6.0\scopedcss\bundle\Ultragamma Presentacion.styles.css
+C:\Users\jnava\OneDrive\Escritorio\Ultragamma Presentacion\Ultragamma Presentacion\Ultragamma Presentacion\obj\Debug\net6.0\scopedcss\projectbundle\Ultragamma Presentacion.bundle.scp.css
+C:\Users\jnava\OneDrive\Escritorio\Ultragamma Presentacion\Ultragamma Presentacion\Ultragamma Presentacion\obj\Debug\net6.0\Ultragamma Presentacion.dll
+C:\Users\jnava\OneDrive\Escritorio\Ultragamma Presentacion\Ultragamma Presentacion\Ultragamma Presentacion\obj\Debug\net6.0\refint\Ultragamma Presentacion.dll
+C:\Users\jnava\OneDrive\Escritorio\Ultragamma Presentacion\Ultragamma Presentacion\Ultragamma Presentacion\obj\Debug\net6.0\Ultragamma Presentacion.pdb
+C:\Users\jnava\OneDrive\Escritorio\Ultragamma Presentacion\Ultragamma Presentacion\Ultragamma Presentacion\obj\Debug\net6.0\Ultragamma Presentacion.genruntimeconfig.cache
+C:\Users\jnava\OneDrive\Escritorio\Ultragamma Presentacion\Ultragamma Presentacion\Ultragamma Presentacion\obj\Debug\net6.0\ref\Ultragamma Presentacion.dll
