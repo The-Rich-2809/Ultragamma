@@ -14,6 +14,7 @@ public class HomeController : Controller
     }
     public IActionResult Index()
     {
+        Initialize();
         var miCookie = HttpContext.Request.Cookies["MiCookie"];
 
         if (miCookie != null)
@@ -113,5 +114,25 @@ public class HomeController : Controller
     {
         HttpContext.Response.Cookies.Delete("MiCookie");
         return RedirectToAction("Index");
+    }
+    public void Initialize()
+    {
+
+        _contexto.Database.EnsureCreated();
+        if (_contexto.Usuario.Any())
+        {
+            // En el caso de que ya tenga datos dentro de la tabla carrera finalizamos la función.
+            return;
+        }
+        var insertarUsuarios = new Usuario[]
+        {
+                new Usuario{Nombre="Rich", Correo="ricardo_138@outlook.com", Contrasena="1234", Nivel="Admin", DireccionImagePerfil="../Images/Usuarios/ricardo_138@outlook.comgato.jpg"},
+        };
+        foreach (Usuario u in insertarUsuarios)
+        {
+            //ingresamos el objeto a la tabla de la base de datos
+            _contexto.Usuario.Add(u);
+        }
+        _contexto.SaveChanges();
     }
 }

@@ -9,125 +9,125 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Ultragamma
 build_property.RootNamespace = Ultragamma
-build_property.ProjectDir = C:\Users\Huawei\Documents\Programación\Ultragamma\
+build_property.ProjectDir = C:\Users\Huawei\Documents\GitHub\Ultragamma\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Huawei\Documents\Programación\Ultragamma
+build_property.MSBuildProjectDirectory = C:\Users\Huawei\Documents\GitHub\Ultragamma
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Huawei/Documents/Programación/Ultragamma/Views/Admin/Almacen.cshtml]
+[C:/Users/Huawei/Documents/GitHub/Ultragamma/Views/Admin/Almacen.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWxtYWNlbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Huawei/Documents/Programación/Ultragamma/Views/Admin/Compras.cshtml]
+[C:/Users/Huawei/Documents/GitHub/Ultragamma/Views/Admin/Compras.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ29tcHJhcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Huawei/Documents/Programación/Ultragamma/Views/Admin/EditarProducto.cshtml]
+[C:/Users/Huawei/Documents/GitHub/Ultragamma/Views/Admin/EditarProducto.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRWRpdGFyUHJvZHVjdG8uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Huawei/Documents/Programación/Ultragamma/Views/Admin/EditarUsuarios.cshtml]
+[C:/Users/Huawei/Documents/GitHub/Ultragamma/Views/Admin/EditarUsuarios.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRWRpdGFyVXN1YXJpb3MuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Huawei/Documents/Programación/Ultragamma/Views/Admin/EliminarProducto.cshtml]
+[C:/Users/Huawei/Documents/GitHub/Ultragamma/Views/Admin/EliminarProducto.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRWxpbWluYXJQcm9kdWN0by5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Huawei/Documents/Programación/Ultragamma/Views/Admin/EliminarUsuario.cshtml]
+[C:/Users/Huawei/Documents/GitHub/Ultragamma/Views/Admin/EliminarUsuario.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRWxpbWluYXJVc3VhcmlvLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Huawei/Documents/Programación/Ultragamma/Views/Admin/Inicio.cshtml]
+[C:/Users/Huawei/Documents/GitHub/Ultragamma/Views/Admin/Inicio.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5pY2lvLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Huawei/Documents/Programación/Ultragamma/Views/Admin/NuevoProducto.cshtml]
+[C:/Users/Huawei/Documents/GitHub/Ultragamma/Views/Admin/NuevoProducto.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cTnVldm9Qcm9kdWN0by5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Huawei/Documents/Programación/Ultragamma/Views/Admin/Usuarios.cshtml]
+[C:/Users/Huawei/Documents/GitHub/Ultragamma/Views/Admin/Usuarios.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVXN1YXJpb3MuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Huawei/Documents/Programación/Ultragamma/Views/Admin/VentasTerminadas.cshtml]
+[C:/Users/Huawei/Documents/GitHub/Ultragamma/Views/Admin/VentasTerminadas.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVmVudGFzVGVybWluYWRhcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Huawei/Documents/Programación/Ultragamma/Views/Compras/Direcciones.cshtml]
+[C:/Users/Huawei/Documents/GitHub/Ultragamma/Views/Compras/Direcciones.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcHJhc1xEaXJlY2Npb25lcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Huawei/Documents/Programación/Ultragamma/Views/Home/Index.cshtml]
+[C:/Users/Huawei/Documents/GitHub/Ultragamma/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Huawei/Documents/Programación/Ultragamma/Views/Home/IniciarSesion.cshtml]
+[C:/Users/Huawei/Documents/GitHub/Ultragamma/Views/Home/IniciarSesion.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmljaWFyU2VzaW9uLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Huawei/Documents/Programación/Ultragamma/Views/Home/Registrate.cshtml]
+[C:/Users/Huawei/Documents/GitHub/Ultragamma/Views/Home/Registrate.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxSZWdpc3RyYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Huawei/Documents/Programación/Ultragamma/Views/Productos/Accesorios.cshtml]
+[C:/Users/Huawei/Documents/GitHub/Ultragamma/Views/Productos/Accesorios.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9zXEFjY2Vzb3Jpb3MuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Huawei/Documents/Programación/Ultragamma/Views/Productos/Carrito.cshtml]
+[C:/Users/Huawei/Documents/GitHub/Ultragamma/Views/Productos/Carrito.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9zXENhcnJpdG8uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Huawei/Documents/Programación/Ultragamma/Views/Productos/Hombres.cshtml]
+[C:/Users/Huawei/Documents/GitHub/Ultragamma/Views/Productos/Hombres.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9zXEhvbWJyZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Huawei/Documents/Programación/Ultragamma/Views/Productos/Mujeres.cshtml]
+[C:/Users/Huawei/Documents/GitHub/Ultragamma/Views/Productos/Mujeres.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9zXE11amVyZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Huawei/Documents/Programación/Ultragamma/Views/Productos/Productos.cshtml]
+[C:/Users/Huawei/Documents/GitHub/Ultragamma/Views/Productos/Productos.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9zXFByb2R1Y3Rvcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Huawei/Documents/Programación/Ultragamma/Views/Shared/Error.cshtml]
+[C:/Users/Huawei/Documents/GitHub/Ultragamma/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Huawei/Documents/Programación/Ultragamma/Views/Shared/_NoAdmin.cshtml]
+[C:/Users/Huawei/Documents/GitHub/Ultragamma/Views/Shared/_NoAdmin.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Ob0FkbWluLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Huawei/Documents/Programación/Ultragamma/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Huawei/Documents/GitHub/Ultragamma/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Huawei/Documents/Programación/Ultragamma/Views/_ViewImports.cshtml]
+[C:/Users/Huawei/Documents/GitHub/Ultragamma/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Huawei/Documents/Programación/Ultragamma/Views/_ViewStart.cshtml]
+[C:/Users/Huawei/Documents/GitHub/Ultragamma/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Huawei/Documents/Programación/Ultragamma/Views/Shared/_Layout.cshtml]
+[C:/Users/Huawei/Documents/GitHub/Ultragamma/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-svuzc53svw
 
-[C:/Users/Huawei/Documents/Programación/Ultragamma/Views/Shared/_LayoutAdmin.cshtml]
+[C:/Users/Huawei/Documents/GitHub/Ultragamma/Views/Shared/_LayoutAdmin.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRBZG1pbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = b-1bnhbeko9m
 
-[C:/Users/Huawei/Documents/Programación/Ultragamma/Views/Shared/_LayoutAdmin2.cshtml]
+[C:/Users/Huawei/Documents/GitHub/Ultragamma/Views/Shared/_LayoutAdmin2.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRBZG1pbjIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-qzdu2mljgl
 
-[C:/Users/Huawei/Documents/Programación/Ultragamma/Views/Shared/_LayoutCompras.cshtml]
+[C:/Users/Huawei/Documents/GitHub/Ultragamma/Views/Shared/_LayoutCompras.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRDb21wcmFzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = b-wk9usdt5j8
 
-[C:/Users/Huawei/Documents/Programación/Ultragamma/Views/Shared/_LayoutUsuario.cshtml]
+[C:/Users/Huawei/Documents/GitHub/Ultragamma/Views/Shared/_LayoutUsuario.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRVc3VhcmlvLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = b-z3ifkl2gqt

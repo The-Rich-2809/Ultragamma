@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xjpTEnDcqVVcy33k5UPDJAIVPqHkYaBngEjRuBZVQ2hupLCzmLHS6bhE6Gj/HKzoTD8wWU1h0DER4QW7WZ7aqw==",
+  "dgSpecHash": "eBumZFMNuty1pLo9rhefmnNen7VmmEuN6KKmYkMnkEpa12Kw5sF5VggLjvFP7/gNz6rv5Ueb0wQ0k/Ex8EuHFw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Huawei\\Documents\\Programación\\Ultragamma\\Ultragamma.csproj",
+  "projectFilePath": "C:\\Users\\Huawei\\Documents\\GitHub\\Ultragamma\\Ultragamma.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Huawei\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Huawei\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
