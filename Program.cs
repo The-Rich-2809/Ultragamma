@@ -5,7 +5,6 @@ using Ultragamma.Providers;
 
 var builder = WebApplication.CreateBuilder(args);
 
-//Configuramos la conexion a SQLSERVER
 builder.Services.AddDbContext<ApplicationDbContex>(opciones =>
     opciones.UseSqlServer(builder.Configuration.GetConnectionString("ConexionSql"))
     );

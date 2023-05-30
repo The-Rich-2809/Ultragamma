@@ -31,8 +31,9 @@ namespace Ultragamma.Controllers
         }
         public IActionResult Hombres()
         {
+            List<Producto> listaProductos = _contexto.Producto.ToList();
             Cookies();
-            return View();
+            return View(listaProductos);
         }
         public IActionResult Mujeres()
         {
@@ -44,11 +45,12 @@ namespace Ultragamma.Controllers
             Cookies();
             return View();
         }
-        public IActionResult Productos()
+        public IActionResult Productos(int id)
         {
+            var Producto = _contexto.Producto.FirstOrDefault(c => c.Id == id);
             Cookies();
             ViewBag.image = "login.jpg";
-            return View();
+            return View(Producto);
         }
         public IActionResult Carrito()
         {

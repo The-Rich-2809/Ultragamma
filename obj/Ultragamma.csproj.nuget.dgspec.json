@@ -1,36 +1,36 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jnava\\Documents\\GitHub\\Ultragamma\\Ultragamma.csproj": {}
+    "C:\\Users\\Huawei\\Documents\\Programación\\Ultragamma\\Ultragamma.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jnava\\Documents\\GitHub\\Ultragamma\\Ultragamma.csproj": {
+    "C:\\Users\\Huawei\\Documents\\Programación\\Ultragamma\\Ultragamma.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jnava\\Documents\\GitHub\\Ultragamma\\Ultragamma.csproj",
+        "projectUniqueName": "C:\\Users\\Huawei\\Documents\\Programación\\Ultragamma\\Ultragamma.csproj",
         "projectName": "Ultragamma",
-        "projectPath": "C:\\Users\\jnava\\Documents\\GitHub\\Ultragamma\\Ultragamma.csproj",
-        "packagesPath": "C:\\Users\\jnava\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jnava\\Documents\\GitHub\\Ultragamma\\obj\\",
+        "projectPath": "C:\\Users\\Huawei\\Documents\\Programación\\Ultragamma\\Ultragamma.csproj",
+        "packagesPath": "C:\\Users\\Huawei\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Huawei\\Documents\\Programación\\Ultragamma\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\jnava\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Huawei\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net7.0"
+          "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net7.0": {
-            "targetAlias": "net7.0",
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {}
           }
         },
@@ -41,13 +41,9 @@
         }
       },
       "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "dependencies": {
-            "Microsoft.AspNetCore.Mvc.TagHelpers": {
-              "target": "Package",
-              "version": "[2.2.0, )"
-            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[7.0.5, )"

@@ -63,8 +63,13 @@ namespace Ultragamma.Controllers
         }
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult NuevoProducto(Producto producto)
+        public async Task<IActionResult>NuevoProducto(Producto producto, IFormFile[] Imagen)
         {
+            for(int i = 0; i < Imagen.Length; i++)
+            {
+                string nombreImagen = producto.Id + "_" + i + "_" + Imagen[i].FileName;
+                await this.helperUpload.UploadFilesAsync(Imagen[i], nombreImagen, Folders.Images);
+            }
             var productos = new ProductosModel(_contexto);
             productos.NuevoProducto(producto);
             Cookies();
@@ -79,8 +84,16 @@ namespace Ultragamma.Controllers
         }
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult EditarProducto(Producto producto)
+        public async Task<IActionResult>EditarProducto(IFormFile[] Imagen, Producto producto)
         {
+            if (Imagen != null)
+            {
+                for (int i = 0; i < Imagen.Length; i++)
+                {
+                    string nombreImagen = producto.Id + "_" + i + "_" + Imagen[i].FileName;
+                    await this.helperUpload.UploadFilesAsync(Imagen[i], nombreImagen, Folders.Productos);
+                }
+            }
             var productos = new ProductosModel(_contexto);
             productos.EditarProducto(producto);
             Cookies();

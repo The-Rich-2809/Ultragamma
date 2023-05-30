@@ -9,7 +9,7 @@ namespace Ultragamma.Providers
 {
     public enum Folders
     {
-        Uploads = 0, Images = 1, Documents = 2, Temp = 3
+        Productos = 0, Images = 1, Documents = 2, Temp = 3
     }
 
     public class PathProvider
@@ -23,9 +23,17 @@ namespace Ultragamma.Providers
 
         public string MapPath(string fileName, Folders folder)
         {
-            string carpeta = "Images/Usuarios";
-
-            string path = Path.Combine(this.hostEnvironment.WebRootPath, carpeta, fileName);
+            string path = "";
+            if(folder == Folders.Productos)
+            {
+                string carpeta = "Images/Productos";
+                path = Path.Combine(this.hostEnvironment.WebRootPath, carpeta, fileName);
+            }
+            else if(folder == Folders.Images)
+            {
+                string carpeta = "Images/Usuarios";
+                path = Path.Combine(this.hostEnvironment.WebRootPath, carpeta, fileName);
+            }
 
             return path;
         }
