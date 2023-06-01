@@ -8,10 +8,11 @@
     <link rel="stylesheet" href="~/Ultragamma.styles.css" asp-append-version="true" />
     <script src="https://kit.fontawesome.com/7f625253aa.js" crossorigin="anonymous" asp-append-version="true"></script>
     <script src="https://kit.fontawesome.com/7f625253aa.js" crossorigin="anonymous"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
 </head>
 <body>
-    <header class="site-header sticky-top py-1 bg-dark">
+    <header class="site-header sticky-top py-1 bg-black">
         <nav class="container d-flex flex-column flex-md-row justify-content-between">
             <div class="container">
                 <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
@@ -47,38 +48,41 @@
         </main>
     </div>
 
-    <div class="text-center text-white bg-dark">
+    <style>
+        .bx bxl-facebook-circle {
+            color: white;
+        }
+
+        .bx bxl-instagram-alt {
+            color: white;
+        }
+
+        .bx bxl-gmail bx-lg {
+            color: white;
+        }
+    </style>
+
+    <div class="text-center text-white bg-black">
         <footer class="py-5 container">
             <div class=" row">
                 <div class="col-2">
-                    <h5>Section</h5>
-                    <ul class="nav flex-column">
-                        <!--<li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>-->
-                    </ul>
+                    <i class='bx bxl-facebook-circle bx-lg'></i>
                 </div>
 
                 <div class="col-2">
-                    <h5>Section</h5>
-                    <ul class="nav flex-column">
-                        <!--<li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>-->
-                    </ul>
+                    <i class='bx bxl-instagram-alt bx-lg'></i>
                 </div>
 
                 <div class="col-2">
-                    <h5>Section</h5>
-                    <ul class="nav flex-column">
-                        <!--<li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>-->
-                    </ul>
+                    <i class='bx bxl-tiktok bx-lg'></i>
                 </div>
 
                 <div class="col-4 offset-1">
                     <form>
-                        <h5>Subscribe to our newsletter</h5>
-                        <p>Monthly digest of whats new and exciting from us.</p>
                         <div class="d-flex w-100 gap-2">
                             <label for="newsletter1" class="visually-hidden">Email address</label>
-                            <input id="newsletter1" type="text" class="form-control form-control-dark" placeholder="Email address">
-                            <button class="btn btn-primary" type="button">Subscribe</button>
+                            <input id="newsletter1" type="text" class="form-control form-control-black" placeholder="Ingresa tu correo para mandarte mensajes ">
+                            <button class="btn btn-primary" type="button">Aceptar</button>
                         </div>
                     </form>
                 </div>
