@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Z/ScpgyS0xpoudM8fwwLfjode6/t4VXtpH2iHgONL8A=",
+  "Hash": "vItpG4vMEpIzA8umOv5HjOkZVDmChAyYdQ0LNa+qC1s=",
   "Source": "Ultragamma",
   "BasePath": "_content/Ultragamma",
   "Mode": "Default",
@@ -527,12 +527,12 @@
       "OriginalItemSpec": "wwwroot\\Images\\P1.jpg"
     },
     {
-      "Identity": "C:\\Users\\Huawei\\Documents\\GitHub\\Ultragamma\\wwwroot\\Images\\Productos\\1_0_Jeans2.jpg",
+      "Identity": "C:\\Users\\Huawei\\Documents\\GitHub\\Ultragamma\\wwwroot\\Images\\Productos\\1_0_pantalones-vaqueros-cropped-primavera-uterque_b2a5edab_1000x1499.jpg",
       "SourceId": "Ultragamma",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Huawei\\Documents\\GitHub\\Ultragamma\\wwwroot\\",
       "BasePath": "_content/Ultragamma",
-      "RelativePath": "Images/Productos/1_0_Jeans2.jpg",
+      "RelativePath": "Images/Productos/1_0_pantalones-vaqueros-cropped-primavera-uterque_b2a5edab_1000x1499.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -541,24 +541,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Images\\Productos\\1_0_Jeans2.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\Huawei\\Documents\\GitHub\\Ultragamma\\wwwroot\\Images\\Productos\\1_1_Jeans.jpg",
-      "SourceId": "Ultragamma",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Huawei\\Documents\\GitHub\\Ultragamma\\wwwroot\\",
-      "BasePath": "_content/Ultragamma",
-      "RelativePath": "Images/Productos/1_1_Jeans.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Images\\Productos\\1_1_Jeans.jpg"
+      "OriginalItemSpec": "wwwroot\\Images\\Productos\\1_0_pantalones-vaqueros-cropped-primavera-uterque_b2a5edab_1000x1499.jpg"
     },
     {
       "Identity": "C:\\Users\\Huawei\\Documents\\GitHub\\Ultragamma\\wwwroot\\Images\\Sign-up.jpg",

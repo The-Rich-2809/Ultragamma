@@ -27,24 +27,17 @@
             <div class="me-md-3 pt-3+ px-md-5 text-center text-white overflow-hidden">
                 <div class=" shadow-sm mx-auto" style="  background-size: cover; background-position: center;">
                     <div id="demo" class="carousel slide" data-bs-ride="carousel">
-
-                        <!-- The slideshow/carousel -->
                         <div class="carousel-inner" style="border-radius: 25px;">
-                            <div class="carousel-item active" style="background: url(../Images/@ViewBag.image); background-size: cover; background-position: center;">
-                                <div class="carousel-caption">
-                                    <h1>Another example headline.</h1>
-                                    <p>Some representative placeholder content for the second slide of the carousel.</p>
-                                    <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
-                                </div>
-                            </div>
-                            <div class="carousel-item" style="background: url(../Images/Hombre1.jpg);
-              background-size: cover;
-              background-position: center;">
-                            </div>
-                            <div class="carousel-item" style="background: url(../Images/Sign-up.jpg);
-              background-size: cover;
-              background-position: center;">
-                            </div>
+                        @{
+                            foreach (var i in ViewBag.Images)
+                            {
+                                if (i.ProductoId == ViewBag.ProductoId)
+                                {
+                                    <div class="carousel-item active" style="background: url(@i.DireccionImage); background-size: cover; background-position: center;">
+                                    </div>
+                                }
+                            }
+                        }
                         </div>
 
                         <!-- Left and right controls/icons -->
@@ -70,12 +63,16 @@
                     <br />
                     <div class="row g-3">
                         <div class="col-sm-3">
-                            <form>
-                                <a asp-controller="Productos" asp-action="Carrito" type="button" class="btn btn-outline-dark">Añadir al carrito</a>
+                            <form method="post">
+                                <input name="id" type="hidden" value="hola">
+                                <button asp-controller="Productos" asp-action="Carrito" method="post" type="button">
+                                    Carrito
+                                </button>
                             </form>
                         </div>
                         <div class="col-sm-3">
                             <form>
+                                <input name="id" type="hidden" value="@Html.DisplayFor(model => model.Id)">
                                 <a asp-controller="Compras" asp-action="Direcciones" type="button" class="btn btn-outline-primary">Comprar Ahora</a>
                             </form>
                         </div>

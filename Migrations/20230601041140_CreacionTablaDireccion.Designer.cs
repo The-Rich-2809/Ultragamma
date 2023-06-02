@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Ultragamma.Models;
 
@@ -10,9 +11,11 @@ using Ultragamma.Models;
 namespace Ultragamma.Migrations
 {
     [DbContext(typeof(ApplicationDbContex))]
-    partial class ApplicationDbContexModelSnapshot : ModelSnapshot
+    [Migration("20230601041140_CreacionTablaDireccion")]
+    partial class CreacionTablaDireccion
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -20,29 +23,6 @@ namespace Ultragamma.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
-
-            modelBuilder.Entity("Ultragamma.Models.Carrito", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<int>("Cantidad")
-                        .HasColumnType("int");
-
-                    b.Property<string>("Correo")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<int>("ProductoId")
-                        .HasColumnType("int");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("Carrito");
-                });
 
             modelBuilder.Entity("Ultragamma.Models.Direccion", b =>
                 {
@@ -91,26 +71,6 @@ namespace Ultragamma.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Direccion");
-                });
-
-            modelBuilder.Entity("Ultragamma.Models.ImagenesProductos", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<string>("DireccionImage")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<int>("ProductoId")
-                        .HasColumnType("int");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("imagenesProductos");
                 });
 
             modelBuilder.Entity("Ultragamma.Models.Producto", b =>

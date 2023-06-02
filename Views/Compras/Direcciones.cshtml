@@ -1,4 +1,5 @@
-﻿@{
+﻿@model IEnumerable<Ultragamma.Models.Direccion>
+@{
     Layout = "_LayoutCompras";
 }
 <!DOCTYPE html>
@@ -22,52 +23,46 @@
             <div class="me-md-3 pt-3 px-3 pt-md-5 px-md-5 overflow-hidden">
                 <h3><b>Mis domicilios</b></h3>
                 <br>
+                <form method="get">
+                    @{
+                        int i = 0;
+                        foreach (var Direcciones in Model)
+                        {
+                            if (Direcciones.Correo == ViewBag.Correo)   
+                            {
+                                i++;
+                                <div class="bg-white form-check" style="border-radius: 25px;">
+                                    
+                                    <input name="IdDireccion" class="form-check-input" type="radio" id="@Direcciones.Id"
+                                           value="@Direcciones.Id">
+                                    <label class="form-check-label" for="@Direcciones.Id"
+                                           style="width: 80%; height: auto; border-radius: 21px;">
+                                        <h5>C.P @Direcciones.CP</h5>
+                                        <p>
+                                            @Direcciones.Calle @Direcciones.NumExt @Direcciones.NumInt @Direcciones.Nombre - @Direcciones.Telefono
+                                        </p>
+                                    </label>
+                                </div>
+                            }
+                        }
+                        if (i == 0)
+                        {
+                            <div class="text-center">
+                                <a asp-controller="Compras" asp-action="AgregarDireccion" type="button" class="btn btn-outline-primary">Agregar Dirección</a>
+                            </div>
+                        }
+                        else
+                        {
+                            <div class="text-center">
+                                <button type="button" class="btn btn-primary">Continuar</button>
+                                <a asp-controller="Compras" asp-action="AgregarDireccion" type="button" class="btn btn-success">Agregar Dirección</a>
+                                <button type="button" class="btn btn-warning">Modificar Direccion</button>
+                                <a asp-controller="Compras" asp-action="EliminarDireccion" type="button" class="btn btn-danger">Eliminar</a>
+                            </div>
+                        }
+                    }
+                </form>
 
-                <div class="bg-white form-check" style="border-radius: 25px;">
-                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1"
-                           value="option1" checked>
-                    <label class="form-check-label" for="exampleRadios1"
-                           style="width: 80%; height: auto; border-radius: 21px;">
-                        <h5>C.P 56613</h5>
-                        <p>
-                            Poniente 4D Manzana 127 Lote 33 SN
-                            Cristina Remigio Rodriguez - 5618984344
-                        </p>
-                    </label>
-                </div>
-                <br>
-                <div class="bg-white form-check" style="border-radius: 25px;">
-                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2"
-                           value="option3">
-                    <label class="form-check-label" for="exampleRadios2"
-                           style="width: 80%; height: auto; border-radius: 21px;">
-                        <h5>C.P 56613</h5>
-                        <p>
-                            Poniente 4D Manzana 127 Lote 33 SN
-                            Cristina Remigio Rodriguez - 5618984344
-                        </p>
-                    </label>
-                </div>
-                <br>
-                <div class="bg-white form-check" style="border-radius: 25px;">
-                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3"
-                           value="option3">
-                    <label class="form-check-label" for="exampleRadios3"
-                           style="width: 80%; height: auto; border-radius: 21px;">
-                        <h5>C.P 56613</h5>
-                        <p>
-                            Poniente 4D Manzana 127 Lote 33 SN
-                            Cristina Remigio Rodriguez - 5618984344
-                        </p>
-                    </label>
-                </div>
-
-                <br>
-                <div class="text-center">
-                    <button type="button" class="btn btn-primary">Continuar</button>
-                    <button type="button" class="btn btn-outline-primary">Agregar Dirección</button>
-
-                </div>
             </div>
 
             <div class="bg-white me-md-3 pt-3 px-3 pt-md-5 text-center overflow-hidden" style="border-radius: 25px;">

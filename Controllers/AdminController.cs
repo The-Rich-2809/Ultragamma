@@ -65,15 +65,33 @@ namespace Ultragamma.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult>NuevoProducto(Producto producto, IFormFile[] Imagen)
         {
-            for(int i = 0; i < Imagen.Length; i++)
-            {
-                string nombreImagen = producto.Id + "_" + i + "_" + Imagen[i].FileName;
-                await this.helperUpload.UploadFilesAsync(Imagen[i], nombreImagen, Folders.Images);
-            }
             var productos = new ProductosModel(_contexto);
             productos.NuevoProducto(producto);
+            for (int i = 0; i < Imagen.Length; i++)
+            {
+                string nombreImagen = producto.Id + "_" + i + "_" + Imagen[i].FileName;
+                await this.helperUpload.UploadFilesAsync(Imagen[i], nombreImagen, Folders.Productos);
+                AgregarImagesProductos(nombreImagen);
+            }
             Cookies();
             return RedirectToAction(nameof(Almacen));
+        }
+        public void AgregarImagesProductos(string DireccionImage)
+        {
+            int conta = 0;
+            List<Producto> listaProductos = _contexto.Producto.ToList();
+            foreach(var i in listaProductos)
+            {
+                conta++;
+                if(conta == listaProductos.Count)
+                {
+                    ImagenesProductos imagenesProductos = new ImagenesProductos();
+                    imagenesProductos.ProductoId = i.Id;
+                    imagenesProductos.DireccionImage = "../Images/Productos/" + DireccionImage;
+                    _contexto.imagenesProductos.Add(imagenesProductos);
+                    _contexto.SaveChanges();
+                }
+            }
         }
         [HttpGet]
         public IActionResult EditarProducto(int id)
@@ -86,18 +104,45 @@ namespace Ultragamma.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult>EditarProducto(IFormFile[] Imagen, Producto producto)
         {
+            var productos = new ProductosModel(_contexto);
+            productos.EditarProducto(producto);
             if (Imagen != null)
             {
                 for (int i = 0; i < Imagen.Length; i++)
                 {
                     string nombreImagen = producto.Id + "_" + i + "_" + Imagen[i].FileName;
                     await this.helperUpload.UploadFilesAsync(Imagen[i], nombreImagen, Folders.Productos);
+                    EditarImagesProductos(producto.Id, nombreImagen);
                 }
             }
-            var productos = new ProductosModel(_contexto);
-            productos.EditarProducto(producto);
             Cookies();
             return RedirectToAction(nameof(Almacen));
+        }
+        public void EditarImagesProductos(int id, string DireccionImage)
+        {
+            List<ImagenesProductos> listaImages = _contexto.imagenesProductos.ToList();
+            foreach (var i in listaImages)
+            {
+                if(i.Id == id)
+                {
+                    _contexto.imagenesProductos.Remove(i);
+                    _contexto.SaveChanges();
+                }
+            }
+            int conta = 0;
+            List<Producto> listaProductos = _contexto.Producto.ToList();
+            foreach (var i in listaProductos)
+            {
+                conta++;
+                if (conta == listaProductos.Count)
+                {
+                    ImagenesProductos imagenesProductos = new ImagenesProductos();
+                    imagenesProductos.ProductoId = i.Id;
+                    imagenesProductos.DireccionImage = "../Images/Productos/" + DireccionImage;
+                    _contexto.imagenesProductos.Add(imagenesProductos);
+                    _contexto.SaveChanges();
+                }
+            }
         }
         [HttpGet]
         public IActionResult EliminarProducto(int? id)
@@ -112,8 +157,21 @@ namespace Ultragamma.Controllers
             var Producto = _contexto.Producto.FirstOrDefault(c => c.Id == id);
             _contexto.Producto.Remove(Producto);
             _contexto.SaveChanges();
+            EliminarImagesProductos(Producto.Id);
             Cookies();
             return RedirectToAction(nameof(Almacen));
+        }
+        public void EliminarImagesProductos(int id)
+        {
+            List<ImagenesProductos> listaImages = _contexto.imagenesProductos.ToList();
+            foreach (var i in listaImages)
+            {
+                if (i.Id == id)
+                {
+                    _contexto.imagenesProductos.Remove(i);
+                    _contexto.SaveChanges();
+                }
+            }
         }
 
         //Vista de Usuario

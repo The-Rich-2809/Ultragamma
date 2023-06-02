@@ -12,6 +12,9 @@ namespace Ultragamma.Models
         //Escribir los modelos
         public DbSet<Usuario> Usuario { get; set; }
         public DbSet<Producto> Producto { get; set; }
+        public DbSet<Direccion> Direccion { get; set; }
+        public DbSet<Carrito> Carrito { get; set; }
+        public DbSet<ImagenesProductos> imagenesProductos { get; set; }
 
     }
 }
