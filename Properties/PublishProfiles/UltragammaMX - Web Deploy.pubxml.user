@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Este archivo se usa en el proceso de publicación y empaquetado del proyecto web. Para personalizar el comportamiento de este proceso,
+edite el archivo MSBuild. Visite https://go.microsoft.com/fwlink/?LinkID=208121 para obtener más información. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAsFXAMceAvk+9AXfJHWUHAAAAAAACAAAAAAAQZgAAAAEAACAAAACu0krzkYmNyJ4RZw6LTlI8m0EGxJG9cbOAkhZSpErNQwAAAAAOgAAAAAIAACAAAADvYusVWNdk+BiTQ/X/AA6OAPHsL2AZMdYZLwmxOfRv0YAAAACXF2cJkPzYWrfMqpO9VWfm0ZvfApYtujJQIkR5qlOgZMGuOZAU06SvIRp63lty2WQi3nuWUOg6yPwqSG/+audkZxmNW43R+XvRlSNDyDXvl6O3q7SW51sHIZTkxVcwYYM2i3PDe7VUI4weogk/c0AHqhoU2680GLrBatMA9i9CTUAAAABy7aVA+88p/Z4b/9XYr5tbmB2sCiARYxVZZVKvD6cr4Il17qQymn3jUOe30dI0I7aqo6ro30KnVR+CI1nreN5A</EncryptedPassword>
+    <History>True|2023-06-03T07:19:11.1467081Z;False|2023-06-03T01:17:19.0072097-06:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="ConexionSql">
+      <Value>Server=tcp:ultragammamxserver.database.windows.net,1433%3bInitial Catalog=UltragammaDB%3bPersist Security Info=False%3bUser ID=Alejandro%3bPassword=Ultragamma2023%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="Ultragamma.Models.ApplicationDbContex">
+      <Value>Server=tcp:ultragammamxserver.database.windows.net,1433%3bInitial Catalog=UltragammaDB%3bPersist Security Info=False%3bUser ID=Alejandro%3bPassword=Ultragamma2023%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

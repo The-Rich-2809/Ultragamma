@@ -64,10 +64,8 @@
                     <div class="row g-3">
                         <div class="col-sm-3">
                             <form method="post">
-                                <input name="id" type="hidden" value="hola">
-                                <button asp-controller="Productos" asp-action="Carrito" method="post" type="button">
-                                    Carrito
-                                </button>
+                                <input name="id" type="hidden" value="@Html.DisplayFor(model => model.Id)">
+                                <button class="btn btn-primary text-white" asp-controller="Productos" asp-action="Productos">Editar</button>
                             </form>
                         </div>
                         <div class="col-sm-3">

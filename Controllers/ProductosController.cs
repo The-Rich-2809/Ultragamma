@@ -11,6 +11,7 @@ namespace Ultragamma.Controllers
             _contexto = contexto;
         }
 
+        public static string Correo { get; set; } = string.Empty;
         public void Cookies()
         {
             var miCookie = HttpContext.Request.Cookies["MiCookie"];
@@ -25,6 +26,8 @@ namespace Ultragamma.Controllers
                         ViewBag.Nombre = user.Nombre;
                         ViewBag.Nivel = user.Nivel;
                         ViewBag.FotoPerfil = user.DireccionImagePerfil;
+                        Correo = user.Correo;
+                        ViewBag.Correo = user.Correo;
                     }
                 }
             }
@@ -46,7 +49,8 @@ namespace Ultragamma.Controllers
             Cookies();
             return View();
         }
-        public IActionResult Productos(int id)
+        [HttpGet]
+        public IActionResult Productos(int? id)
         {
             var Producto = _contexto.Producto.FirstOrDefault(c => c.Id == id);
             ViewBag.Images = _contexto.imagenesProductos.ToList();
@@ -54,11 +58,26 @@ namespace Ultragamma.Controllers
             Cookies();
             return View(Producto);
         }
-        [HttpGet]
-        public IActionResult Carrito(string id)
+        [HttpPost]
+        public IActionResult Productos(int id, Carrito carrito)
         {
             Cookies();
-            return View();
+            carrito.Id = 0;
+            carrito.ProductoId = id;
+            carrito.Cantidad = 1;
+            carrito.Correo = Correo;
+            _contexto.Carrito.Add(carrito);
+            _contexto.SaveChanges();
+            return RedirectToAction(nameof(Carrito));
+        }
+        [HttpGet]
+        public IActionResult Carrito()
+        {
+            List<Carrito> listaCarrito = _contexto.Carrito.ToList();
+            ViewBag.Images = _contexto.imagenesProductos.ToList();
+            ViewBag.Productos = _contexto.Producto.ToList();
+            Cookies();
+            return View(listaCarrito);
         }
     }
 }

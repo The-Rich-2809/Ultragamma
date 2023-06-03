@@ -12,6 +12,12 @@
         public string Alcaldia { get; set; } = string.Empty;
         public string Colonia { get; set; } = string.Empty;
         public string CP { get; set; } = string.Empty;
+        public bool Check { get; set; }
+        public class DireccionList
+        {
+            public List<Direccion> Direccion { get; set; }
+
+        }
 
     }
 }

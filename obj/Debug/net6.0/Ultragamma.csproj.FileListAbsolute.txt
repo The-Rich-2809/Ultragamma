@@ -180,3 +180,6 @@ C:\Users\Huawei\Documents\GitHub\Ultragamma\obj\Debug\net6.0\refint\Ultragamma.d
 C:\Users\Huawei\Documents\GitHub\Ultragamma\obj\Debug\net6.0\Ultragamma.pdb
 C:\Users\Huawei\Documents\GitHub\Ultragamma\obj\Debug\net6.0\Ultragamma.genruntimeconfig.cache
 C:\Users\Huawei\Documents\GitHub\Ultragamma\obj\Debug\net6.0\ref\Ultragamma.dll
+C:\Users\Huawei\Documents\GitHub\Ultragamma\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\Huawei\Documents\GitHub\Ultragamma\bin\Debug\net6.0\PayPal.dll
+C:\Users\Huawei\Documents\GitHub\Ultragamma\bin\Debug\net6.0\PayPalCoreSDK.dll

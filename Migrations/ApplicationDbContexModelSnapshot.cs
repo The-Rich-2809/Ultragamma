@@ -64,6 +64,9 @@ namespace Ultragamma.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<bool>("Check")
+                        .HasColumnType("bit");
+
                     b.Property<string>("Colonia")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -156,6 +159,42 @@ namespace Ultragamma.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Producto");
+                });
+
+            modelBuilder.Entity("Ultragamma.Models.Tarjeta", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("CVV")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("Check")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("Correo")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("FechaVen")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Nombre")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("NumTarjeta")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Tarjeta");
                 });
 
             modelBuilder.Entity("Ultragamma.Models.Usuario", b =>

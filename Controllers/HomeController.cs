@@ -126,7 +126,11 @@ public class HomeController : Controller
         }
         var insertarUsuarios = new Usuario[]
         {
-                new Usuario{Nombre="Rich", Correo="ricardo_138@outlook.com", Contrasena="1234", Nivel="Admin", DireccionImagePerfil="../Images/Usuarios/ricardo_138@outlook.comgato.jpg"},
+            new Usuario{Nombre="Rich", Correo="ricardo_138@outlook.com", Contrasena="1234", Nivel="Admin", DireccionImagePerfil="../Images/Usuarios/ricardo_138@outlook.comgato.jpg"},
+            new Usuario{Nombre="Juan", Correo="jnava6066@gmail.com", Contrasena="1234", Nivel="Admin", DireccionImagePerfil="../Images/Usuarios/jnava6066@gmail.comJuan.jpeg"},
+            new Usuario{Nombre="Alejandro", Correo="aserranoacosta841@gmail.com", Contrasena="1234", Nivel="Admin", DireccionImagePerfil="../Images/Usuarios/aserranoacosta841@gmail.comAlejandro.jpeg"},
+            new Usuario{Nombre="Luis", Correo="assened200@gmail.com", Contrasena="1234", Nivel="Admin", DireccionImagePerfil="../Images/Usuarios/assened200@gmail.comLuis.jpeg"},
+            new Usuario{Nombre="Erik", Correo="erikrdgr@outlook.com", Contrasena="1234", Nivel="Admin", DireccionImagePerfil="../Images/Usuarios/erikrdgr@outlook.comErik.jpeg"},
         };
         foreach (Usuario u in insertarUsuarios)
         {

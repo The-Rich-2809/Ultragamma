@@ -1,6 +1,13 @@
-﻿@model IEnumerable<Ultragamma.Models.Direccion>
+﻿@model List<Ultragamma.Models.Direccion>
 @{
-    Layout = "_LayoutCompras";
+    if (ViewBag.Nivel == "Admin")
+    {
+        Layout = "_LayoutAdmin";
+    }
+    else if (ViewBag.Nivel == "Cliente")
+    {
+        Layout = "_LayoutUsuario";
+    }
 }
 <!DOCTYPE html>
 <html lang="en">
@@ -23,45 +30,40 @@
             <div class="me-md-3 pt-3 px-3 pt-md-5 px-md-5 overflow-hidden">
                 <h3><b>Mis domicilios</b></h3>
                 <br>
-                <form method="get">
-                    @{
-                        int i = 0;
-                        foreach (var Direcciones in Model)
+                <a asp-controller="Compras" asp-action="AgregarDireccion" type="button" class="btn btn-success">Agregar Dirección</a>
+                <p></p>
+                @{
+                    int i = 0;
+                    <form asp-action="Submit" method="post">
+                        @for (i = 0; i < Model.Count; i++)
                         {
-                            if (Direcciones.Correo == ViewBag.Correo)   
-                            {
-                                i++;
-                                <div class="bg-white form-check" style="border-radius: 25px;">
-                                    
-                                    <input name="IdDireccion" class="form-check-input" type="radio" id="@Direcciones.Id"
-                                           value="@Direcciones.Id">
-                                    <label class="form-check-label" for="@Direcciones.Id"
-                                           style="width: 80%; height: auto; border-radius: 21px;">
-                                        <h5>C.P @Direcciones.CP</h5>
-                                        <p>
-                                            @Direcciones.Calle @Direcciones.NumExt @Direcciones.NumInt @Direcciones.Nombre - @Direcciones.Telefono
-                                        </p>
-                                    </label>
-                                </div>
-                            }
-                        }
-                        if (i == 0)
-                        {
-                            <div class="text-center">
-                                <a asp-controller="Compras" asp-action="AgregarDireccion" type="button" class="btn btn-outline-primary">Agregar Dirección</a>
+                            <div class="bg-white form-check" style="border-radius: 25px;">
+                                <label for="@Model[i].Id">
+                                    <input type="hidden" id="Id" name="Id" value="@Model[i].Id" />
+                                    <input type="checkbox" asp-for="@Model[i].Check" id="@Model[i].Id" />
+                                    <h5>C.P @Model[i].CP</h5>
+                                    <p>
+                                        @Model[i].Nombre @Model[i].Telefono
+                                    </p>
+                                    <p>
+                                        @Model[i].Calle @Model[i].NumExt @Model[i].NumInt 
+                                    </p>
+                                </label>
                             </div>
+                            <p></p>
                         }
-                        else
+                        @if(i != 0)
                         {
-                            <div class="text-center">
-                                <button type="button" class="btn btn-primary">Continuar</button>
-                                <a asp-controller="Compras" asp-action="AgregarDireccion" type="button" class="btn btn-success">Agregar Dirección</a>
-                                <button type="button" class="btn btn-warning">Modificar Direccion</button>
-                                <a asp-controller="Compras" asp-action="EliminarDireccion" type="button" class="btn btn-danger">Eliminar</a>
-                            </div>
+                            <button type="submit" class="btn btn-primary">Continuar</button>
                         }
+                    </form>
+                    if (i == 0)
+                    {
+                        <div class="text-center">
+                            <a asp-controller="Compras" asp-action="AgregarDireccion" type="button" class="btn btn-outline-primary">Agregar Dirección</a>
+                        </div>
                     }
-                </form>
+                }
 
             </div>
 
