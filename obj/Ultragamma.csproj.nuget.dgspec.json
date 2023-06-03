@@ -65,6 +65,10 @@
             "PayPalCoreSDK": {
               "target": "Package",
               "version": "[1.7.1, )"
+            },
+            "mercadopago-sdk": {
+              "target": "Package",
+              "version": "[2.3.2, )"
             }
           },
           "imports": [

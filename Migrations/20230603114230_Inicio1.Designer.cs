@@ -11,8 +11,8 @@ using Ultragamma.Models;
 namespace Ultragamma.Migrations
 {
     [DbContext(typeof(ApplicationDbContex))]
-    [Migration("20230602111622_inicio")]
-    partial class inicio
+    [Migration("20230603114230_Inicio1")]
+    partial class Inicio1
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -39,12 +39,44 @@ namespace Ultragamma.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<int>("Precio")
+                        .HasColumnType("int");
+
                     b.Property<int>("ProductoId")
                         .HasColumnType("int");
 
                     b.HasKey("Id");
 
                     b.ToTable("Carrito");
+                });
+
+            modelBuilder.Entity("Ultragamma.Models.DetalleOrden", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("Cantidad")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Correo")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("OrdenId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("Precio")
+                        .HasColumnType("int");
+
+                    b.Property<int>("ProductoId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("DetalleOrden");
                 });
 
             modelBuilder.Entity("Ultragamma.Models.Direccion", b =>
@@ -117,6 +149,33 @@ namespace Ultragamma.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("imagenesProductos");
+                });
+
+            modelBuilder.Entity("Ultragamma.Models.OrdenCompra", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Correo")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("DireccionId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Estado")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("Total")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("OrdenCompra");
                 });
 
             modelBuilder.Entity("Ultragamma.Models.Producto", b =>

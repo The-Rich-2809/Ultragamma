@@ -68,34 +68,63 @@
             </div>
 
             <div class="bg-white me-md-3 pt-3 px-3 pt-md-5 text-center overflow-hidden" style="border-radius: 25px;">
-                <h2>Productos</h2>
-                <img src="https://cdn.shopify.com/s/files/1/0346/7558/9257/products/661-2025A3_Playera_Basica_Lisa_Manga_Corta_Cuello_Redondo_Caballero_Milano_A_600x600_crop_center.jpg?v=1627429733"
-                     alt="mdo" width="50" height="50" class="rounded-circle">
-                <p>
-                    Una playera es una camiseta de manga corta y cuello redondo que se usa como prenda de vestir informal
-                    y cómoda en climas cálidos. Por lo general, está hecha de algodón y puede venir en una variedad de
-                    colores y diseños.
-                </p>
-
-                <hr class="featurette-divider">
                 <div class="row">
-                    <div class="col-lg-6">
-                        <h4>Productos</h4>
-                    </div>
-                    <div class="col-lg-6">
-                        <h4>$14,987.50</h4>
+                    <div class="col-lg-12">
+                        <h1>Productos</h1>
                     </div>
                 </div>
+                <br />
+                @{
+                    int total = 0;
+                    @foreach (var carrito in ViewBag.Carrito)
+                    {
+                        if (carrito.Correo == ViewBag.Correo)
+                        {
+                            total = total + carrito.Precio;
+                            @foreach (var productos in ViewBag.Productos)
+                            {
+                                if (carrito.ProductoId == productos.Id)
+                                {
+                                    @foreach (var Images in ViewBag.Images)
+                                    {
+                                        if (Images.ProductoId == productos.Id)
+                                        {
+                                            <hr class="featurette-divider">
+                                            <div class="row">
+                                                <div class="col-lg-2">
+                                                    <img src="@Images.DireccionImage"
+                                                         alt="mdo" width="50" height="50" class="rounded-circle">
+                                                </div>
+                                                <div class="col-lg-3">
+                                                    <h4>@productos.Nombre</h4>
+                                                </div>
+                                                <div class="col-lg-3">
+                                                    <h4>@productos.Descripcion</h4>
+                                                </div>
+                                                <div class="col-lg-2">
+                                                    <h4>@carrito.Cantidad</h4>
+                                                </div>
+                                                <div class="col-lg-2">
+                                                    <h4>$@carrito.Precio</h4>
+                                                </div>
+                                            </div>
+                                            <hr class="featurette-divider">
+                                        }
+                                    }
 
-                <hr class="featurette-divider">
-                <div class="row">
-                    <div class="col-lg-6">
-                        <h4><b>Productos</b></h4>
+                                }
+                            }
+                        }
+                    }
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <h1>Total $@total</h1>
+                        </div>
                     </div>
-                    <div class="col-lg-6">
-                        <h4><b>$14,987.50</b></h4>
-                    </div>
-                </div>
+                }
+                
+
+                
             </div>
         </div>
     </main>

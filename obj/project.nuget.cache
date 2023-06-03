@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "J0Bqtlx5mM0lMxYxfdNv48WgscoXI/Em/NSkWPpjHsBlnzvTxu7blgJUai1LgIWFVNa/NRcz6LSb65kNQzpgrQ==",
+  "dgSpecHash": "lj++LDx5Mne+tBV7r4Lx9eAaoAL6yl7HqN7B7OnyksDWQN+L40c59ry9SkPC0iMKrfDkDpgJX3DiJ+ficZQvyw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Huawei\\Documents\\GitHub\\Ultragamma\\Ultragamma.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Huawei\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Huawei\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
     "C:\\Users\\Huawei\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
+    "C:\\Users\\Huawei\\.nuget\\packages\\mercadopago-sdk\\2.3.2\\mercadopago-sdk.2.3.2.nupkg.sha512",
     "C:\\Users\\Huawei\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\Huawei\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\Huawei\\.nuget\\packages\\microsoft.data.sqlclient\\5.0.1\\microsoft.data.sqlclient.5.0.1.nupkg.sha512",
@@ -42,7 +43,7 @@
     "C:\\Users\\Huawei\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
     "C:\\Users\\Huawei\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",
     "C:\\Users\\Huawei\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
-    "C:\\Users\\Huawei\\.nuget\\packages\\newtonsoft.json\\7.0.1\\newtonsoft.json.7.0.1.nupkg.sha512",
+    "C:\\Users\\Huawei\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\Huawei\\.nuget\\packages\\paypal\\1.9.1\\paypal.1.9.1.nupkg.sha512",
     "C:\\Users\\Huawei\\.nuget\\packages\\paypalcoresdk\\1.7.1\\paypalcoresdk.1.7.1.nupkg.sha512",
     "C:\\Users\\Huawei\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
@@ -77,16 +78,6 @@
     "C:\\Users\\Huawei\\.nuget\\packages\\system.windows.extensions\\5.0.0\\system.windows.extensions.5.0.0.nupkg.sha512"
   ],
   "logs": [
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "El paquete \"Newtonsoft.Json 7.0.1\" se restauró con \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1\" en lugar de la plataforma de destino del proyecto \"net6.0\". Puede que el paquete no sea totalmente compatible con el proyecto.",
-      "libraryId": "Newtonsoft.Json",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    },
     {
       "code": "NU1701",
       "level": "Warning",

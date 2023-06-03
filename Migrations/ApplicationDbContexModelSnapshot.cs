@@ -36,12 +36,44 @@ namespace Ultragamma.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<int>("Precio")
+                        .HasColumnType("int");
+
                     b.Property<int>("ProductoId")
                         .HasColumnType("int");
 
                     b.HasKey("Id");
 
                     b.ToTable("Carrito");
+                });
+
+            modelBuilder.Entity("Ultragamma.Models.DetalleOrden", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("Cantidad")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Correo")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("OrdenId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("Precio")
+                        .HasColumnType("int");
+
+                    b.Property<int>("ProductoId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("DetalleOrden");
                 });
 
             modelBuilder.Entity("Ultragamma.Models.Direccion", b =>
@@ -116,6 +148,33 @@ namespace Ultragamma.Migrations
                     b.ToTable("imagenesProductos");
                 });
 
+            modelBuilder.Entity("Ultragamma.Models.OrdenCompra", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Correo")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("DireccionId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Estado")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("Total")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("OrdenCompra");
+                });
+
             modelBuilder.Entity("Ultragamma.Models.Producto", b =>
                 {
                     b.Property<int>("Id")
@@ -159,42 +218,6 @@ namespace Ultragamma.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Producto");
-                });
-
-            modelBuilder.Entity("Ultragamma.Models.Tarjeta", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<string>("CVV")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<bool>("Check")
-                        .HasColumnType("bit");
-
-                    b.Property<string>("Correo")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("FechaVen")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Nombre")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("NumTarjeta")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("Tarjeta");
                 });
 
             modelBuilder.Entity("Ultragamma.Models.Usuario", b =>

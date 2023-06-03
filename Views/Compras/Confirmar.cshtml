@@ -1,0 +1,103 @@
+﻿@model List<Ultragamma.Models.Tarjeta>
+@{
+    if (ViewBag.Nivel == "Admin")
+    {
+        Layout = "_LayoutAdmin";
+    }
+    else if (ViewBag.Nivel == "Cliente")
+    {
+        Layout = "_LayoutUsuario";
+    }
+}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="~/css/Carousel.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://sdk.mercadopago.com/js/v2"></script>
+    <script src="https://www.paypal.com/sdk/js?client-id=Ad2crBJUDRl9GCziM-yn7aIZirlashZmgIV9ib0faAPBjd_Wmv2fV-kUqT7j1NkoxAf1npZEhUjJ_MnW&currency=MXN"></script>
+</head>
+
+<body class="bg-light">
+    <br>
+    <main>
+        <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
+            <div class="me-md-3 pt-3 px-3 pt-md-5 px-md-5 overflow-hidden">
+                <h1>Realiza el pago de tu compra</h1>
+                <br />
+                <div id="paypal-button-container">
+                </div>
+                <script>
+                    paypal.Buttons({
+                        style: {
+                            color: 'blue',
+                            shape: 'pill',
+                            label: 'pay'
+                        },
+                        createOrder: function (data, actions) {
+                            return actions.order.create({
+                                purchase_units: [{
+                                    amount: {
+                                        value: @ViewBag.Total
+                                    }
+                                }]
+                            });
+
+                        },
+                        onApprove: function (data, actions) {
+                            actions.order.capture().then(function (detalles) {
+                                console.log(detalles);
+                                window.location.href = "CompraRealizada";
+                            });
+                        },
+
+                        onCancel: function (data) {
+                            alert("Pago Cancelado");
+                            console.log(data);
+                        }
+
+                    }).render('#paypal-button-container')
+                </script>
+            </div>
+
+            <div class="bg-white me-md-3 pt-3 px-3 pt-md-5 text-center overflow-hidden" style="border-radius: 25px;">
+                <h2>Productos</h2>
+                <img src="https://cdn.shopify.com/s/files/1/0346/7558/9257/products/661-2025A3_Playera_Basica_Lisa_Manga_Corta_Cuello_Redondo_Caballero_Milano_A_600x600_crop_center.jpg?v=1627429733"
+                     alt="mdo" width="50" height="50" class="rounded-circle">
+                <p>
+                    Una playera es una camiseta de manga corta y cuello redondo que se usa como prenda de vestir informal
+                    y cómoda en climas cálidos. Por lo general, está hecha de algodón y puede venir en una variedad de
+                    colores y diseños.
+                </p>
+
+                <hr class="featurette-divider">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <h4>Productos</h4>
+                    </div>
+                    <div class="col-lg-6">
+                        <h4>$14,987.50</h4>
+                    </div>
+                </div>
+
+                <hr class="featurette-divider">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <h4><b>Productos</b></h4>
+                    </div>
+                    <div class="col-lg-6">
+                        <h4><b>$14,987.50</b></h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

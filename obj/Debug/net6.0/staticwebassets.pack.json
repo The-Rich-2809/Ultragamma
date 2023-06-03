@@ -85,6 +85,18 @@
       "PackagePath": "staticwebassets\\Images\\Productos\\1_0_pantalones-vaqueros-cropped-primavera-uterque_b2a5edab_1000x1499.jpg"
     },
     {
+      "Id": "C:\\Users\\Huawei\\Documents\\GitHub\\Ultragamma\\wwwroot\\Images\\Productos\\1_0_png-transparent-blue-denim-pants-topshop-mom-jeans-denim-slim-fit-pants-jeans-fashion-top-clothing-thumbnail.png",
+      "PackagePath": "staticwebassets\\Images\\Productos\\1_0_png-transparent-blue-denim-pants-topshop-mom-jeans-denim-slim-fit-pants-jeans-fashion-top-clothing-thumbnail.png"
+    },
+    {
+      "Id": "C:\\Users\\Huawei\\Documents\\GitHub\\Ultragamma\\wwwroot\\Images\\Productos\\2_0_girls-beautiful-yellow-skinny-trousers-260nw-712737529.webp",
+      "PackagePath": "staticwebassets\\Images\\Productos\\2_0_girls-beautiful-yellow-skinny-trousers-260nw-712737529.webp"
+    },
+    {
+      "Id": "C:\\Users\\Huawei\\Documents\\GitHub\\Ultragamma\\wwwroot\\Images\\Productos\\2_0_png-transparent-blue-denim-pants-topshop-mom-jeans-denim-slim-fit-pants-jeans-fashion-top-clothing-thumbnail.png",
+      "PackagePath": "staticwebassets\\Images\\Productos\\2_0_png-transparent-blue-denim-pants-topshop-mom-jeans-denim-slim-fit-pants-jeans-fashion-top-clothing-thumbnail.png"
+    },
+    {
       "Id": "C:\\Users\\Huawei\\Documents\\GitHub\\Ultragamma\\wwwroot\\Images\\Sign-up.jpg",
       "PackagePath": "staticwebassets\\Images\\Sign-up.jpg"
     },
@@ -163,6 +175,10 @@
     {
       "Id": "C:\\Users\\Huawei\\Documents\\GitHub\\Ultragamma\\wwwroot\\js\\form-validation.js",
       "PackagePath": "staticwebassets\\js\\form-validation.js"
+    },
+    {
+      "Id": "C:\\Users\\Huawei\\Documents\\GitHub\\Ultragamma\\wwwroot\\js\\mercado.js",
+      "PackagePath": "staticwebassets\\js\\mercado.js"
     },
     {
       "Id": "C:\\Users\\Huawei\\Documents\\GitHub\\Ultragamma\\wwwroot\\js\\site.js",

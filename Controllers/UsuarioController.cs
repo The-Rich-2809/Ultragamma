@@ -47,58 +47,7 @@ namespace Ultragamma.Controllers
             return View();
         }
 
-        public IActionResult Tarjetas()
-        {
-            List<Tarjeta> listaTajetas = _contexto.Tarjeta.ToList();
-            Cookies();
-            return View(listaTajetas);
-        }
-        [HttpGet]
-        public IActionResult AgregarTarjeta()
-        {
-            Cookies();
-            return View();
-        }
-        [HttpPost]
-        public IActionResult AgregarTarjeta(Tarjeta tarjeta)
-        {
-            Cookies();
-            tarjeta.Correo = Correo;
-            _contexto.Tarjeta.Add(tarjeta);
-            _contexto.SaveChanges();
-            return RedirectToAction(nameof(Tarjetas));
-        }
-        [HttpGet]
-        public IActionResult EditarTarjeta(int id)
-        {
-            var tarjeta = _contexto.Tarjeta.FirstOrDefault(c => c.Id == id);
-            Cookies();
-            return View(tarjeta);
-        }
-        [HttpPost]
-        public IActionResult EditarTarjeta(Tarjeta tarjeta)
-        {
-            Cookies();
-            _contexto.Update(tarjeta);
-            _contexto.SaveChanges();
-            return RedirectToAction(nameof(Tarjetas));
-        }
-        [HttpGet]
-        public IActionResult EliminarTarjeta(int? id)
-        {
-            var tarjeta = _contexto.Tarjeta.FirstOrDefault(c => c.Id == id);
-            Cookies();
-            return View(tarjeta);
-        }
-        [HttpPost]
-        public IActionResult EliminarTarjeta(int id)
-        {
-            var Tarjeta = _contexto.Tarjeta.FirstOrDefault(c => c.Id == id);
-            _contexto.Tarjeta.Remove(Tarjeta);
-            _contexto.SaveChanges();
-            Cookies();
-            return RedirectToAction(nameof(Tarjetas));
-        }
+        
 
 
         public IActionResult Direcciones()

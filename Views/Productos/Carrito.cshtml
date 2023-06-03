@@ -29,37 +29,47 @@
         <table class="table">
             <thead class="table-dark">
                 <tr>
-                    <th scope="col">Producto</th>
+                    <th scope="col">Imagen</th>
+                    <th scope="col">Nombre</th>
                     <th scope="col">Descripción</th>
                     <th scope="col">Talla</th>
-                    <th scope="col">Precio</th>
+                    <th scope="col">Cantidad</th>
+                    <th scope="col">Precio Unitario</th>
+                    <th scope="col">Total</th>
                     <th scope="col">Editar</th>
                 </tr>
 
             </thead>
             <tbody>
-                @foreach(var carrito in Model)
-                {
-                    if(carrito.Correo == ViewBag.Correo)
+                @{
+                    int i = 0;
+                    foreach (var carrito in Model)
                     {
-                        foreach (var producto in ViewBag.Productos)
+                        if (carrito.Correo == ViewBag.Correo)
                         {
-                            if(carrito.ProductoId == producto.Id)
+                            foreach (var producto in ViewBag.Productos)
                             {
-                                <tr>
-                                    <td><img src="https://media.revistagq.com/photos/5e5e46500ddcb70008366650/master/w_1600%2Cc_limit/camisetas%25209.jpg" alt="mdo" width="32" height="32"></td>
-                                    <td>@producto.Descripcion</td>
-                                    <td>@producto.Talla</td>
-                                    <td>$@producto.Precio P.U.</td>
-                                    <td>
-                                        <a class="btn btn-primary text-white" asp-action="EditarUsuarios" asp-route-id="">Confirmar</a>
-                                        <a class="btn btn-danger text-white" asp-action="EliminarUsuario" asp-route-id="">Borrar Producto</a>
-                                    </td>
-                                </tr>
+                                if (carrito.ProductoId == producto.Id)
+                                {
+                                    i = carrito.Precio / carrito.Cantidad;
+                                    <tr>
+                                        <td><img src="https://media.revistagq.com/photos/5e5e46500ddcb70008366650/master/w_1600%2Cc_limit/camisetas%25209.jpg" alt="mdo" width="32" height="32"></td>
+                                        <td>@producto.Nombre</td>
+                                        <td>@producto.Descripcion</td>
+                                        <td>@producto.Talla</td>
+                                        <td>@carrito.Cantidad</td>
+                                        <td>$@i P.U.</td>
+                                        <td>$@carrito.Precio</td>
+                                        <td>
+                                            <a class="btn btn-danger text-white" asp-action="EliminarUsuario" asp-route-id="">Borrar Producto</a>
+                                        </td>
+                                    </tr>
+                                }
                             }
                         }
                     }
                 }
+                
             </tbody>
         </table>
         <form method="get">

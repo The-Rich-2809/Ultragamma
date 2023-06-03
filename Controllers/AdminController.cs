@@ -230,7 +230,17 @@ namespace Ultragamma.Controllers
         //Vista de Compras
         public IActionResult Compras()
         {
+            List<OrdenCompra> listaOrdenCompra = _contexto.OrdenCompra.ToList();
             Cookies();
+            return View(listaOrdenCompra);
+        }
+        public IActionResult OrdenDetalles(int id, int idDireccion)
+        {
+            Cookies();
+            ViewBag.Direccion = _contexto.Direccion.FirstOrDefault(c => c.Id == idDireccion);
+            ViewBag.Detalles = _contexto.DetalleOrden.ToList();
+            ViewBag.Productos = _contexto.Producto.ToList();
+            ViewBag.IdOrden = id;
             return View();
         }
 

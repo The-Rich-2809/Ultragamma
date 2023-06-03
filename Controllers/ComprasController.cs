@@ -44,6 +44,9 @@ namespace Ultragamma.Controllers
         public IActionResult Direcciones()
         {
             List<Direccion> listaDireccion = _contexto.Direccion.ToList();
+            ViewBag.Images = _contexto.imagenesProductos.ToList();
+            ViewBag.Productos = _contexto.Producto.ToList();
+            ViewBag.Carrito = _contexto.Carrito.ToList();
             Cookies();
             return View(listaDireccion);
         }
@@ -58,27 +61,83 @@ namespace Ultragamma.Controllers
                     i = model.Count;
                 }
             }
-            return RedirectToAction(nameof(Tarjetas));
+            return RedirectToAction(nameof(Confirmar));
         }
-        public IActionResult Tarjetas()
+        public IActionResult Confirmar()
         {
-            List<Tarjeta> listaTarjetas = _contexto.Tarjeta.ToList();
+            int Total = 0;
             Cookies();
-            return View(listaTarjetas);
-        }
-        [HttpPost]
-        public IActionResult Submit1(List<Tarjeta> model, List<int> Id)
-        {
-            for (var i = 0; i < model.Count; i++)
+            List<Carrito> listaCarrito = _contexto.Carrito.ToList();
+            foreach(var carrito in listaCarrito)
             {
-                if (model[i].Check == true)
+                if (carrito.Correo == Correo)
                 {
-                    TarjetaId = Id[i];
-                    i = model.Count;
+                    Total = carrito.Precio + Total;
                 }
             }
-            return RedirectToAction(nameof(Tarjetas));
+            ViewBag.Total = Total;
+
+            return View();
         }
+        public IActionResult CompraRealizada(OrdenCompra ordenCompra, DetalleOrden detalleOrden)
+        {
+            Cookies();
+            int OCID = 0;
+            ordenCompra.DireccionId = DireccionId;
+            ordenCompra.Correo = Correo;
+            ordenCompra.Estado = "Prerando tu paquete";
+
+            List<Carrito> listaCarrito = _contexto.Carrito.ToList();
+            foreach(var carrito in listaCarrito)
+            {
+                if(carrito.Correo == Correo)
+                {
+                    ordenCompra.Total = ordenCompra.Total + carrito.Precio;
+                }
+            }
+            _contexto.OrdenCompra.Add(ordenCompra);
+            _contexto.SaveChanges();
+
+            int t = 0;
+            List<OrdenCompra> listaordenCompra = _contexto.OrdenCompra.ToList();
+            foreach(var oc in listaordenCompra)
+            {
+                if(oc.Correo == Correo)
+                { t++; }
+            }
+            int y = 0;
+            foreach (var oc in listaordenCompra)
+            {
+                if (oc.Correo == Correo)
+                {
+                    y++;
+                    if(y == t)
+                    {
+                        OCID = oc.Id; break;
+                    }
+                }
+            }
+
+            foreach (var carrito in listaCarrito)
+            {
+                if (carrito.Correo == Correo)
+                {
+                    detalleOrden.OrdenId = OCID;
+                    detalleOrden.ProductoId = carrito.ProductoId;
+                    detalleOrden.Cantidad = carrito.Cantidad;
+                    detalleOrden.Precio = carrito.Precio;
+                    detalleOrden.Correo = Correo;
+                    detalleOrden.Id = 0;
+                    _contexto.DetalleOrden.Add(detalleOrden);
+                    _contexto.Carrito.Remove(carrito);
+                    _contexto.SaveChanges();
+                }
+            }
+
+            return View();
+        }
+
+
         [HttpGet]
         public IActionResult AgregarDireccion()
         {

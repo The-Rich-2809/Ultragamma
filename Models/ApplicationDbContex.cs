@@ -14,7 +14,8 @@ namespace Ultragamma.Models
         public DbSet<Producto> Producto { get; set; }
         public DbSet<Direccion> Direccion { get; set; }
         public DbSet<Carrito> Carrito { get; set; }
-        public DbSet<Tarjeta> Tarjeta { get; set; }
+        public DbSet<OrdenCompra> OrdenCompra { get; set; }
+        public DbSet<DetalleOrden> DetalleOrden { get; set; }
         public DbSet<ImagenesProductos> imagenesProductos { get; set; }
 
     }

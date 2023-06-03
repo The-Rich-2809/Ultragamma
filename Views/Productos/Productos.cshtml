@@ -50,33 +50,30 @@
                     </div>
                 </div>
             </div>
-            <div class="me-md-3 pt-3 px-3 pt-md-5 overflow-hidden">
-                <div class="mx-auto" style="width: 100%; height: auto;">
-                    <h1>@Html.DisplayFor(model => model.Nombre)</h1>
-                    <br>
-                    <h5>$@Html.DisplayFor(model => model.Precio) MXN</h5>  <p class="" style="color: rgb(9, 10, 10);">En Stock @Html.DisplayFor(model => model.Existencia) pzas</p>
-                    <h5>Descripción:</h5>
-                    <p class="" style="color: rgb(9, 10, 10);">@Html.DisplayFor(model => model.Descripcion)</p>
-                    <h5>Colores: @Html.DisplayFor(model => model.Color)</h5>
-                    <br />
-                    <h5>Tallas: @Html.DisplayFor(model => model.Talla)</h5>
-                    <br />
-                    <div class="row g-3">
-                        <div class="col-sm-3">
-                            <form method="post">
+            <form method="post">
+                <div class="me-md-3 pt-3 px-3 pt-md-5 overflow-hidden">
+                    <div class="mx-auto" style="width: 100%; height: auto;">
+                        <h1>@Html.DisplayFor(model => model.Nombre)</h1>
+                        <br>
+                        <h5>$@Html.DisplayFor(model => model.Precio) MXN</h5>  <p class="" style="color: rgb(9, 10, 10);">En Stock @Html.DisplayFor(model => model.Existencia) pzas</p>
+                        <h5>Descripción:</h5>
+                        <p class="" style="color: rgb(9, 10, 10);">@Html.DisplayFor(model => model.Descripcion)</p>
+                        <h5>Colores: @Html.DisplayFor(model => model.Color)</h5>
+                        <br />
+                        <h5>Tallas: @Html.DisplayFor(model => model.Talla)</h5>
+                        <br />
+                        <input name="Cantidad" type="number" value=1>
+                        <br />
+                        <div class="row g-3">
+                            <div class="col-sm-3">
+                                <input name="Precio" type="hidden" value="@Html.DisplayFor(model => model.Precio)" />
                                 <input name="id" type="hidden" value="@Html.DisplayFor(model => model.Id)">
                                 <button class="btn btn-primary text-white" asp-controller="Productos" asp-action="Productos">Editar</button>
-                            </form>
-                        </div>
-                        <div class="col-sm-3">
-                            <form>
-                                <input name="id" type="hidden" value="@Html.DisplayFor(model => model.Id)">
-                                <a asp-controller="Compras" asp-action="Direcciones" type="button" class="btn btn-outline-primary">Comprar Ahora</a>
-                            </form>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
+            </form>
         </div>
     </main>
 

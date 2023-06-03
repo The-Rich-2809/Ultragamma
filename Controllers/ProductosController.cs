@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using PayPal.Api;
 using Ultragamma.Models;
 
 namespace Ultragamma.Controllers
@@ -41,13 +42,17 @@ namespace Ultragamma.Controllers
         }
         public IActionResult Mujeres()
         {
+            List<Producto> listaProductos = _contexto.Producto.ToList();
+            ViewBag.Images = _contexto.imagenesProductos.ToList();
             Cookies();
-            return View();
+            return View(listaProductos);
         }
         public IActionResult Accesorios()
         {
+            List<Producto> listaProductos = _contexto.Producto.ToList();
+            ViewBag.Images = _contexto.imagenesProductos.ToList();
             Cookies();
-            return View();
+            return View(listaProductos);
         }
         [HttpGet]
         public IActionResult Productos(int? id)
@@ -61,13 +66,38 @@ namespace Ultragamma.Controllers
         [HttpPost]
         public IActionResult Productos(int id, Carrito carrito)
         {
-            Cookies();
-            carrito.Id = 0;
             carrito.ProductoId = id;
-            carrito.Cantidad = 1;
-            carrito.Correo = Correo;
-            _contexto.Carrito.Add(carrito);
-            _contexto.SaveChanges();
+            int t = 0;
+            Cookies();
+            List<Carrito> listaCarrito = _contexto.Carrito.ToList();
+            foreach (var item in listaCarrito)
+            {
+                if (carrito.ProductoId == item.ProductoId)
+                {
+                    carrito.Cantidad = item.Cantidad + carrito.Cantidad;
+                    _contexto.Carrito.Remove(item);
+                    _contexto.SaveChanges();
+                    break;
+                }
+                t++;
+            }
+            if (listaCarrito.Count == t)
+            {
+                carrito.Precio = carrito.Precio * carrito.Cantidad;
+                carrito.ProductoId = id;
+                carrito.Correo = Correo;
+                _contexto.Carrito.Add(carrito);
+                _contexto.SaveChanges();
+            }
+            else
+            {
+                carrito.Id = 0;
+                carrito.Precio = carrito.Precio * carrito.Cantidad;
+                carrito.Correo = Correo;
+                _contexto.Carrito.Add(carrito);
+                _contexto.SaveChanges();
+            }
+
             return RedirectToAction(nameof(Carrito));
         }
         [HttpGet]

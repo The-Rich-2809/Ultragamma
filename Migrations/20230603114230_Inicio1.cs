@@ -5,7 +5,7 @@
 namespace Ultragamma.Migrations
 {
     /// <inheritdoc />
-    public partial class inicio : Migration
+    public partial class Inicio1 : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -18,11 +18,29 @@ namespace Ultragamma.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     ProductoId = table.Column<int>(type: "int", nullable: false),
                     Correo = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Cantidad = table.Column<int>(type: "int", nullable: false)
+                    Cantidad = table.Column<int>(type: "int", nullable: false),
+                    Precio = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Carrito", x => x.Id);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "DetalleOrden",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    OrdenId = table.Column<int>(type: "int", nullable: false),
+                    ProductoId = table.Column<int>(type: "int", nullable: false),
+                    Cantidad = table.Column<int>(type: "int", nullable: false),
+                    Precio = table.Column<int>(type: "int", nullable: false),
+                    Correo = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_DetalleOrden", x => x.Id);
                 });
 
             migrationBuilder.CreateTable(
@@ -59,6 +77,22 @@ namespace Ultragamma.Migrations
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_imagenesProductos", x => x.Id);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "OrdenCompra",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    DireccionId = table.Column<int>(type: "int", nullable: false),
+                    Correo = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Total = table.Column<int>(type: "int", nullable: false),
+                    Estado = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_OrdenCompra", x => x.Id);
                 });
 
             migrationBuilder.CreateTable(
@@ -104,10 +138,16 @@ namespace Ultragamma.Migrations
                 name: "Carrito");
 
             migrationBuilder.DropTable(
+                name: "DetalleOrden");
+
+            migrationBuilder.DropTable(
                 name: "Direccion");
 
             migrationBuilder.DropTable(
                 name: "imagenesProductos");
+
+            migrationBuilder.DropTable(
+                name: "OrdenCompra");
 
             migrationBuilder.DropTable(
                 name: "Producto");
