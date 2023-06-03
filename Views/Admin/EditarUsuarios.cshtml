@@ -17,6 +17,7 @@
         <div class="my-3 p-3 bg-body rounded shadow-sm">
             <h1>Editar Usuario</h1>
             <form class="needs-validation" novalidate method="post" enctype="multipart/form-data">
+                <input name="Contrasena" type="hidden" value="@Html.DisplayFor(model => model.Contrasena)" />
                 <div class="row g-3">
                     <div class="col-md-4">
                         <label asp-for="Correo" class="form-label">Correo</label>
@@ -49,14 +50,14 @@
                     
                     <div class="col-sm-6">
                         <label asp-for="Contrasena" class="form-label">Contraseña</label>
-                        <input name="Contrasena" type="text" class="form-control" id="Contrasena" required>
+                        <input name="Contrasena1" type="password" class="form-control" id="Contrasena" required>
                         <div class="invalid-feedback">
                             Se requiere una contraseña
                         </div>
                     </div>
                     <div class="col-sm-6">
                         <label asp-for="Contrasena" class="form-label">Repita la Contraseña</label>
-                        <input name="Contrasena2" type="text" class="form-control" id="Contrasena" required>
+                        <input name="Contrasena2" type="password" class="form-control" id="Contrasena" required>
                         <div class="invalid-feedback">
                             Se requiere que repita la contraseña
                         </div>

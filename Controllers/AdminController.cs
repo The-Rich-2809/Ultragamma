@@ -191,7 +191,7 @@ namespace Ultragamma.Controllers
         }
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> EditarUsuarios(IFormFile Imagen, Usuario usuario, string id)
+        public async Task<IActionResult> EditarUsuarios(IFormFile Imagen, Usuario usuario, string id, string Contrasena1, string Contrasena2)
         {
             var usuarios = new RegistroModel(_contexto);
             if (Imagen != null)
@@ -203,6 +203,10 @@ namespace Ultragamma.Controllers
             else
             {
                 usuario.DireccionImagePerfil = FotoPerfil;
+            }
+            if(Contrasena1 != null)
+            {
+                usuario.Contrasena = Contrasena1;
             }
 
             usuarios.EditarUsuario(usuario);
